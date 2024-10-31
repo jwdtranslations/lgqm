@@ -1,3 +1,5 @@
+import { browser } from '$app/environment';
+
 type Serializer<T> = {
 	parse: (text: string) => T;
 	stringify: (object: T) => string;
@@ -25,6 +27,16 @@ export function persistedState<T>(key: string, initialValue: T, options: Options
 		beforeRead = (v: T) => v,
 		beforeWrite = (v: T) => v
 	} = options;
+
+	if (!browser) {
+		return {
+			get value() {
+				return initialValue;
+			},
+			set value(v: T) {},
+			reset() {}
+		};
+	}
 
 	const storageArea = storage === 'local' ? localStorage : sessionStorage;
 

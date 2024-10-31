@@ -1,14 +1,13 @@
 <script lang="ts">
 	import markdownit from 'markdown-it';
-	import descriptionMarkdown from '../../content/description.md?raw';
 	import { Button } from '$lib/components/ui/button';
+
+	let { data } = $props();
 
 	const md = markdownit({ linkify: true });
 	md.linkify.set({ fuzzyEmail: false });
 
-	const description = md.render(descriptionMarkdown);
-
-	let { data } = $props();
+	const description = md.render(data.descriptionMarkdown);
 </script>
 
 <div class="mx-auto mb-32 max-w-prose p-1">

@@ -1,37 +1,40 @@
 import type { ChapterMetadata } from '$lib/metadata';
 import fm from 'front-matter';
 import type { LayoutLoad } from './$types';
+import { building, dev } from '$app/environment';
 
-export const ssr = false;
+export const ssr = true;
 export const prerender = true;
 
-type Chapter = { slug: string; metadata: ChapterMetadata };
+type Chapter = { slug: string; path: string; metadata: ChapterMetadata };
 
 type Metadata = {
 	title: string;
 	volumeNameOverrides: Record<string, string>;
 };
 
-export const load: LayoutLoad = async () => {
-	const metadataJson = await import('../../content/metadata.json?raw');
-	const metadata = JSON.parse(metadataJson.default) as Metadata;
-	const prefix = '/content/';
-	const modules = import.meta.glob('/content/*/*.md');
+export const load: LayoutLoad = async (e) => {
+	const metadata: Metadata = await e.fetch('/content/metadata.json').then((res) => res.json());
+	let modules = {};
+	if (!building) {
+		// modules = import.meta.glob('/static/content/*/*.md');
+	}
 
-	// get all paths
-	const paths = Object.keys(modules).map((path) => {
-		return path.replace(prefix, '').replace('.md', '');
-	});
+	const descriptionMarkdown = await e.fetch('/content/description.md').then((res) => res.text());
 
 	// group paths
 	const groupedPaths: Record<string, Chapter[]> = {};
 	for (const m of Object.keys(modules)) {
-		const content = (await import(m + '?raw')).default;
+		const filePath = m.replace('/static', '');
+		const content = await e.fetch(filePath).then((res) => res.text());
 		const data = fm(content);
 		const metadata = data.attributes as ChapterMetadata;
-		const slug = m.replace(prefix, '').replace('.md', '');
+		const path = m.match(/\/content\/(.*)\.md/)?.[1];
+		if (!path) continue;
+		const segs = path.split('/', 2);
+		const slug = segs.map(encodeURIComponent).join('/');
 		if (!groupedPaths[metadata.volume]) groupedPaths[metadata.volume] = [];
-		groupedPaths[metadata.volume].push({ slug, metadata });
+		groupedPaths[metadata.volume].push({ slug, metadata, path: filePath });
 	}
 
 	// sort paths
@@ -45,7 +48,7 @@ export const load: LayoutLoad = async () => {
 
 	const allChapters = sortedVolumes.flatMap((volume) => volume.chapters);
 
-	const data = { metadata: metadata, volumes: sortedVolumes, allChapters };
+	const data = { metadata: metadata, volumes: sortedVolumes, allChapters, descriptionMarkdown };
 
 	console.log(data);
 

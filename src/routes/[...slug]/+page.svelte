@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { browser } from '$app/environment';
 	import { page } from '$app/stores';
 	import { Button } from '$lib/components/ui/button';
 	import { appConfig } from '$lib/config.svelte.js';
@@ -39,7 +40,7 @@
 		</div>
 	</div>
 	<!-- comments -->
-	{#if !data.attrs.hideComments}
+	{#if !data.attrs.hideComments && browser}
 		{#key [$page.url.pathname, $mode]}
 			<Remark42 />
 		{/key}
