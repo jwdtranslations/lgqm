@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { browser } from '$app/environment';
+	import { base } from '$app/paths';
 	import { page } from '$app/stores';
 	import { Button } from '$lib/components/ui/button';
 	import { appConfig } from '$lib/config.svelte.js';
@@ -30,12 +31,12 @@
 	<div class="mb-16 flex justify-between">
 		<div>
 			{#if data.prevChapter}
-				<Button href={`/${data.prevChapter.slug}`} variant="outline">Previous</Button>
+				<Button href={`${base}/${data.prevChapter.slug}`} variant="outline">Previous</Button>
 			{/if}
 		</div>
 		<div>
 			{#if data.nextChapter}
-				<Button href={`/${data.nextChapter.slug}`} variant="outline">Next</Button>
+				<Button href={`${base}/${data.nextChapter.slug}`} variant="outline">Next</Button>
 			{/if}
 		</div>
 	</div>

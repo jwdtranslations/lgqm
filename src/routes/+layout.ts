@@ -2,6 +2,7 @@ import type { ChapterMetadata } from '$lib/metadata';
 import fm from 'front-matter';
 import type { LayoutLoad } from './$types';
 import { building, dev } from '$app/environment';
+import { base } from '$app/paths';
 
 export const ssr = true;
 export const prerender = true;
@@ -14,10 +15,14 @@ type Metadata = {
 };
 
 export const load: LayoutLoad = async (e) => {
-	const metadata: Metadata = await e.fetch('/content/metadata.json').then((res) => res.json());
+	const metadata: Metadata = await e
+		.fetch(`${base}/content/metadata.json`)
+		.then((res) => res.json());
 	const modules = import.meta.glob('/static/content/*/*.md');
 
-	const descriptionMarkdown = await e.fetch('/content/description.md').then((res) => res.text());
+	const descriptionMarkdown = await e
+		.fetch(`${base}/content/description.md`)
+		.then((res) => res.text());
 
 	// group paths
 	const groupedPaths: Record<string, Chapter[]> = {};

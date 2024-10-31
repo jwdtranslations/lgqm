@@ -1,6 +1,7 @@
 <script lang="ts">
 	import markdownit from 'markdown-it';
 	import { Button } from '$lib/components/ui/button';
+	import { base } from '$app/paths';
 
 	let { data } = $props();
 
@@ -18,7 +19,7 @@
 			<h2>{volume.volumeName}</h2>
 			{#each volume.chapters as chapter}
 				<p>
-					<Button href={`/${chapter.slug}`} variant="link"
+					<Button href={`${base}/${chapter.slug}`} variant="link"
 						>{chapter.metadata.chapter >= 0 ? `${chapter.metadata.chapter} - ` : ''}{chapter
 							.metadata.title}</Button
 					>
