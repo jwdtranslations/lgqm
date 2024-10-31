@@ -1,9 +1,8 @@
 <script lang="ts">
 	import { dev } from '$app/environment';
-	import { PUBLIC_REMARK42_URL } from '$env/static/public';
 	import ConfigPopover from '$lib/config-popover.svelte';
-	import '../app.css';
 	import { ModeWatcher } from 'mode-watcher';
+	import '../app.css';
 
 	let { children, data } = $props();
 

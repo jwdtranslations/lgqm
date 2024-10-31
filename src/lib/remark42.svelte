@@ -7,7 +7,7 @@
 		site_id: PUBLIC_REMARK42_SITE_ID,
 		components: ['embed', 'last-comments'],
 		max_shown_comments: 100,
-		theme: mode,
+		theme: $mode,
 		page_title: 'My custom title for a page',
 		locale: 'en',
 		show_email_subscription: false,
@@ -15,6 +15,7 @@
 		simple_view: false,
 		no_footer: true
 	});
+
 	$effect(() => {
 		// @ts-ignore
 		window.remark_config = config;

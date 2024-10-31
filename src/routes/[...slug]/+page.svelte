@@ -1,9 +1,11 @@
 <script lang="ts">
 	import { page } from '$app/stores';
 	import { Button } from '$lib/components/ui/button';
+	import { appConfig } from '$lib/config.svelte.js';
 	import Remark42 from '$lib/remark42.svelte';
 	import markdownit from 'markdown-it';
 	import footnote from 'markdown-it-footnote';
+	import { mode } from 'mode-watcher';
 
 	let { data } = $props();
 
@@ -11,8 +13,6 @@
 	md.linkify.set({ fuzzyEmail: false });
 
 	const rendered = $derived(md.render(data.body));
-
-	$inspect($page.url.pathname).with(console.log);
 </script>
 
 <div class="mx-auto mb-24 max-w-prose p-1">
@@ -40,7 +40,7 @@
 	</div>
 	<!-- comments -->
 	{#if !data.attrs.hideComments}
-		{#key $page.url.pathname}
+		{#key [$page.url.pathname, $mode]}
 			<Remark42 />
 		{/key}
 	{/if}
