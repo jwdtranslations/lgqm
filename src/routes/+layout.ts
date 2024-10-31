@@ -17,8 +17,9 @@ export const load: LayoutLoad = async (e) => {
 	const metadata: Metadata = await e.fetch('/content/metadata.json').then((res) => res.json());
 	let modules = {};
 	if (!building) {
-		// modules = import.meta.glob('/static/content/*/*.md');
+		modules = import.meta.glob('/static/content/*/*.md');
 	}
+	modules = import.meta.glob('/static/content/*/*.md');
 
 	const descriptionMarkdown = await e.fetch('/content/description.md').then((res) => res.text());
 
