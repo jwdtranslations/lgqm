@@ -4,6 +4,7 @@
 	import { ModeWatcher } from 'mode-watcher';
 	import '../app.css';
 	import { appConfig, fontMap } from '$lib/config.svelte';
+	import { base } from '$app/paths';
 
 	let { children, data } = $props();
 
@@ -30,7 +31,7 @@
 <div class={`mt-8`} style={`font-family: ${fontMap[appConfig.value.font]};`}>
 	<div class="mx-auto mb-8 max-w-prose">
 		<div class="flex items-center justify-between">
-			<a class="text-4xl font-extrabold tracking-tight lg:text-5xl" href="/">
+			<a class="text-4xl font-extrabold tracking-tight lg:text-5xl" href={base}>
 				{data.metadata.title}
 			</a>
 			<div class="float-right">
