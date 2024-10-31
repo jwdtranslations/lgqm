@@ -1,8 +1,7 @@
 <script lang="ts">
-	import { mode } from 'mode-watcher';
-	import SelectWrapper from './components/select-wrapper.svelte';
 	import ConfigItem from './config-item.svelte';
-	import { appConfig, fonts, modes } from './config.svelte';
+	import { appConfig } from './config.svelte';
+	import FontSelect from './font-select.svelte';
 	import ModePicker from './mode-picker.svelte';
 </script>
 
@@ -13,7 +12,7 @@
 <div class="flex flex-col gap-2">
 	<ConfigItem>
 		{@render label('Font')}
-		<SelectWrapper values={fonts} bind:value={appConfig.value.font} class="w-32" />
+		<FontSelect bind:value={appConfig.value.font} class="w-32" />
 	</ConfigItem>
 	<ConfigItem>
 		{@render label('Theme')}

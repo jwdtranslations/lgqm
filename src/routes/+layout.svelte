@@ -3,6 +3,7 @@
 	import ConfigPopover from '$lib/config-popover.svelte';
 	import { ModeWatcher } from 'mode-watcher';
 	import '../app.css';
+	import { appConfig, fontMap } from '$lib/config.svelte';
 
 	let { children, data } = $props();
 
@@ -26,7 +27,7 @@
 
 <ModeWatcher />
 
-<div class="mt-2">
+<div class={`mt-8`} style={`font-family: ${fontMap[appConfig.value.font]};`}>
 	<div class="mx-auto mb-8 max-w-prose">
 		<div class="flex items-center justify-between">
 			<a class="text-4xl font-extrabold tracking-tight lg:text-5xl" href="/">

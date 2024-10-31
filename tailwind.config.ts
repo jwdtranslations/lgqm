@@ -91,9 +91,9 @@ const config: Config = {
 			}
 		},
 		fontFamily: {
-			roboto: ['Roboto', 'sans-serif'],
-			sans: ['Noto Sans', 'sans-serif'],
-			serif: ['Noto Serif', 'serif']
+			roboto: ['"Roboto"', 'sans-serif'],
+			sans: ['"Noto Sans"', 'sans-serif'],
+			serif: ['"Noto Serif"', 'serif']
 		}
 	},
 	plugins: [tailwindcssAnimate, typography]
