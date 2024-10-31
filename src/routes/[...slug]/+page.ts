@@ -1,7 +1,6 @@
-import { building, dev } from '$app/environment';
 import type { ChapterMetadata } from '$lib/metadata';
-import type { EntryGenerator, PageLoad } from './$types';
 import fm from 'front-matter';
+import type { PageLoad } from './$types';
 
 export const load: PageLoad = async ({ params, parent, fetch }) => {
 	const { slug } = params;

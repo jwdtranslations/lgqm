@@ -27,7 +27,7 @@ export const load: LayoutLoad = async (e) => {
 	// group paths
 	const groupedPaths: Record<string, Chapter[]> = {};
 	for (const m of Object.keys(modules)) {
-		const filePath = m.replace('/static', '');
+		const filePath = m.replace('/static', base);
 		const content = await e.fetch(filePath).then((res) => res.text());
 		const data = fm(content);
 		const metadata = data.attributes as ChapterMetadata;
