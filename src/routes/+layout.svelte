@@ -7,6 +7,7 @@
 	import { ModeWatcher } from 'mode-watcher';
 	import { deepMerge, MetaTags } from 'svelte-meta-tags';
 	import '../app.css';
+	import { generateFields } from '$lib/metadata-tags';
 
 	let { children, data } = $props();
 
@@ -18,7 +19,7 @@
 		console.trace = () => {};
 	}
 
-	let metaTags = $derived(deepMerge(data.baseMetaTags, $page.data.pageMetaTags));
+	let metaTags = $derived(generateFields(deepMerge(data.baseMetaTags, $page.data.pageMetaTags)));
 </script>
 
 <svelte:head>

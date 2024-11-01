@@ -6,8 +6,11 @@ Deploy novels to Github pages as static web pages.
 
 1. Fork the repository. Make sure to also copy the actions workflow.
 2. Enable Github pages by going to repository Settings -> Pages and setting Source to Github actions.
-3. Edit the files in `static/content` to edit the content.
-4. Commits to the branch `main` are then automatically built and pushed to the Github pages site.
+3. Set the build variables (Settings -> Secrets and variables -> Actions -> Variables) `REMARK42_URL`, `REMARK42_SITE_ID`, `BASE_URL` to your correct values.
+   The remark42 variables are for the comment system.
+   An example `BASE_URL` for a site hosted on github pages is `https://sqooid.github.io` (excludes the repository name).
+4. Edit the files in `static/content` to suit your needs.
+5. Commits to the branch `main` are then automatically built and pushed to the Github pages site.
 
 ### How it works
 

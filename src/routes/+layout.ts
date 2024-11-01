@@ -4,6 +4,7 @@ import type { LayoutLoad } from './$types';
 import { building, dev } from '$app/environment';
 import { base } from '$app/paths';
 import type { MetadataInput } from '$lib/metadata-tags';
+import { PUBLIC_BASE_URL } from '$env/static/public';
 
 export const ssr = true;
 export const prerender = true;
@@ -64,7 +65,7 @@ export const load: LayoutLoad = async (e) => {
 		canonical: base,
 		images: [
 			{
-				url: `${base}/content/cover.jpg`,
+				url: `${PUBLIC_BASE_URL}${base}/content/cover.jpg`,
 				alt: metadata.cover.alt,
 				width: metadata.cover.width,
 				height: metadata.cover.height
