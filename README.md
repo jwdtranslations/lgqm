@@ -41,16 +41,15 @@ hideComments?: boolean;
 Files with the same `volume` value are grouped together.
 Files within the same volume are sorted by their chapter value, and volumes are sorted the same way.
 
-## Developing
+## Developing (live preview)
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+Once you've installed dependencies with `pnpm install`, start a development server:
 
 ```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+pnpm run dev
 ```
+
+This will allow you to see changes live.
 
 ## TODO's
 
