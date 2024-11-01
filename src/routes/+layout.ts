@@ -3,6 +3,7 @@ import fm from 'front-matter';
 import type { LayoutLoad } from './$types';
 import { building, dev } from '$app/environment';
 import { base } from '$app/paths';
+import type { MetadataInput } from '$lib/metadata-tags';
 
 export const ssr = true;
 export const prerender = true;
@@ -11,7 +12,14 @@ type Chapter = { slug: string; path: string; metadata: ChapterMetadata };
 
 type Metadata = {
 	title: string;
+	shortDescription: string;
+	iconName: string;
 	volumeNameOverrides: Record<string, string>;
+	cover: {
+		alt: string;
+		width: number;
+		height: number;
+	};
 };
 
 export const load: LayoutLoad = async (e) => {
@@ -50,8 +58,27 @@ export const load: LayoutLoad = async (e) => {
 
 	const allChapters = sortedVolumes.flatMap((volume) => volume.chapters);
 
-	const data = { metadata: metadata, volumes: sortedVolumes, allChapters, descriptionMarkdown };
+	const baseMetaTags: MetadataInput = {
+		title: metadata.title,
+		description: metadata.shortDescription,
+		canonical: base,
+		images: [
+			{
+				url: `${base}/content/cover.jpg`,
+				alt: metadata.cover.alt,
+				width: metadata.cover.width,
+				height: metadata.cover.height
+			}
+		]
+	};
 
+	const data = {
+		metadata: metadata,
+		volumes: sortedVolumes,
+		allChapters,
+		descriptionMarkdown,
+		baseMetaTags
+	};
 	console.log(data);
 
 	return data;

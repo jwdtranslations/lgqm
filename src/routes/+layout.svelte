@@ -1,10 +1,12 @@
 <script lang="ts">
 	import { dev } from '$app/environment';
-	import ConfigPopover from '$lib/config-popover.svelte';
-	import { ModeWatcher } from 'mode-watcher';
-	import '../app.css';
-	import { appConfig, fontMap } from '$lib/config.svelte';
 	import { base } from '$app/paths';
+	import { page } from '$app/stores';
+	import ConfigPopover from '$lib/config-popover.svelte';
+	import { appConfig, fontMap } from '$lib/config.svelte';
+	import { ModeWatcher } from 'mode-watcher';
+	import { deepMerge, MetaTags } from 'svelte-meta-tags';
+	import '../app.css';
 
 	let { children, data } = $props();
 
@@ -15,9 +17,12 @@
 		console.debug = () => {};
 		console.trace = () => {};
 	}
+
+	let metaTags = $derived(deepMerge(data.baseMetaTags, $page.data.pageMetaTags));
 </script>
 
 <svelte:head>
+	<link rel="icon" href={`${base}/content/${data.metadata.iconName}`} />
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
 	<link
@@ -25,6 +30,8 @@
 		rel="stylesheet"
 	/>
 </svelte:head>
+
+<MetaTags {...metaTags} />
 
 <ModeWatcher />
 
