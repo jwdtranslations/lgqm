@@ -41,6 +41,12 @@ hideComments?: boolean;
 Files with the same `volume` value are grouped together.
 Files within the same volume are sorted by their chapter value, and volumes are sorted the same way.
 
+### Prefaces and other information
+
+You can create sections for auxilliary content (check the example "Extra Information" section).
+By defining a key in volumeNameOverrides of metadata.json, you can create custom volume names for things like prefaces and blurbs
+Give the chapter a negative value to hide the chapter number from rendering. Chapters will still be listed in ascending order, but the numbers will not be shown.
+
 ## Developing (live preview)
 
 Once you've installed dependencies with `pnpm install`, start a development server:
