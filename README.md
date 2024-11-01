@@ -15,6 +15,8 @@ Example pages and metadata are shown in the `static/content` folder.
 All following paths are relative to this directory.
 
 Novel data and other overrides are stored in `metadata.json`.
+Check the example file for what can be specified.
+Most of the fields here are used for metadata tags (search engine info and rich links)
 Currently, only volume names can be overriden.
 
 The novel description is stored in the file `description.md`.
@@ -59,6 +61,5 @@ This will allow you to see changes live.
 
 ## TODO's
 
-- metadata tags for SEO and rich link previews
 - section for latest chapters
 - show chapter release date
