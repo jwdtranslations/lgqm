@@ -13,31 +13,37 @@ media_folder: /static/images/uploads
 collections:
   - name: "chapter"
     label: "Chapter"
-    folder: "static/content"
+    folder: "static/content/chapters"
     create: true
+    nested:
+      depth: 1
+      summary: "volume-{{fields.volume}}"
     extension: "md"
-    slug: "{{field.slug}}.md"
+    slug: "{{fields.slug}}.md"
+    summary: "Chapter {{chapter}} - {{title}}"
     fields:
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Volume", name: "volume", widget: "number"}
       - {label: "Chapter", name: "chapter", widget: "number"}
       - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Hide comments", name: "hideComments", widget: "boolean"}
-      - {label: "Content", name: "content", widget: "markdown"}
+      - {label: "Hide comments", name: "hideComments", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
   - name: "metadata"
     label: "Metadata"
-    folder: "static/content"
-    create: true
-    extension: "json"
-    slug: "metadata"
-    fields:
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Description", name: "description", widget: "markdown"}
-      - {label: "Short description", name: "shortDescription", widget: "string"}
-      - {label: "Icon", name: "icon", widget: "image"}
-      - {label: "Cover", name: "cover", widget: "image"}
-      - {label: "volumeOverrides", name: "volumeOverrides", widget: "list", fields: [
-          {label: "Volume", name: "volume", widget: "number"},
-          {label: "Replacement", name: "replacement", widget: "string"},
-        ]}
+    files:
+      - label: "Metadata"
+        file: static/content/metadata.json
+        name: "metadata"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "markdown"}
+          - {label: "Short description", name: "shortDescription", widget: "string"}
+          - {label: "Icon", name: "icon", widget: "image"}
+          - {label: "Cover", name: "cover", widget: "image"}
+          - label: "volumeOverrides"
+            name: "volumeOverrides"
+            widget: "list"
+            fields:
+              - {label: "Volume", name: "volume", widget: "number"}
+              - {label: "Replacement", name: "replacement", widget: "string"}            
