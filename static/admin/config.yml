@@ -17,9 +17,9 @@ collections:
     create: true
     nested:
       depth: 1
-      summary: "volume-{{fields.volume}}"
+      summary: "Volume {{volume}}"
     extension: "md"
-    slug: "{{fields.slug}}.md"
+    slug: "{{fields.slug}}"
     summary: "Chapter {{chapter}} - {{title}}"
     fields:
       - {label: "Slug", name: "slug", widget: "string"}
@@ -29,6 +29,12 @@ collections:
       - {label: "Date", name: "date", widget: "datetime"}
       - {label: "Hide comments", name: "hideComments", widget: "boolean", default: false}
       - {label: "Body", name: "body", widget: "markdown"}
+    meta:
+      path:
+        widget: string
+        label: Path
+        name: path
+        index_file: index
   - name: "metadata"
     label: "Metadata"
     files:
