@@ -22,6 +22,7 @@ The CMS works by making commits (creating markdown files) on your behalf to the 
 Create a new chapter by clicking on the "Chapter" collection tab on the left and then clicking "New Chapter".
 In the "Path" field, input something like `volume-1/chapter-1`.
 This field determines the slug (url) that will be used to access the chapter.
+The chapters must be within exactly one level of subdirectory (as in the above example).
 
 The other fields are fairly self-explanatory.
 However, there are some special cases, which are explained below
