@@ -1,0 +1,43 @@
+backend:
+  name: github
+  repo: sqooid/novel-static
+  branch: decap
+  commit_messages:
+    create: Create {{collection}} “{{slug}}”
+    update: Update {{collection}} “{{slug}}”
+    delete: Delete {{collection}} “{{slug}}”
+    uploadMedia: Upload “{{path}}”
+    deleteMedia: Delete “{{path}}”
+    openAuthoring: '{{message}}'
+media_folder: static/images/uploads
+collections:
+  - name: "chapter"
+    label: "Chapter"
+    folder: "content/chapters"
+    create: true
+    extension: "md"
+    slug: "{{field.slug}}"
+    fields:
+      - {label: "Slug", name: "slug", widget: "string"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Volume", name: "volume", widget: "number"}
+      - {label: "Chapter", name: "chapter", widget: "number"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Hide comments", name: "hideComments", widget: "boolean"}
+      - {label: "Content", name: "content", widget: "markdown"}
+  - name: "metadata"
+    label: "Metadata"
+    folder: "content/metadata"
+    create: true
+    extension: "md"
+    slug: "metadata.json"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Description", name: "description", widget: "markdown"}
+      - {label: "Short description", name: "shortDescription", widget: "string"}
+      - {label: "Icon", name: "icon", widget: "image"}
+      - {label: "Cover", name: "cover", widget: "image"}
+      - {label: "volumeOverrides", name: "volumeOverrides", widget: "list", fields: [
+          {label: "Volume", name: "volume", widget: "number"},
+          {label: "Replacement", name: "replacement", widget: "string"},
+        ]}
