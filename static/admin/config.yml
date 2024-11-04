@@ -9,14 +9,14 @@ backend:
     uploadMedia: Upload “{{path}}”
     deleteMedia: Delete “{{path}}”
     openAuthoring: '{{message}}'
-media_folder: static/images/uploads
+media_folder: /static/images/uploads
 collections:
   - name: "chapter"
     label: "Chapter"
-    folder: "content/chapters"
+    folder: "static/content"
     create: true
     extension: "md"
-    slug: "{{field.slug}}"
+    slug: "{{field.slug}}.md"
     fields:
       - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
@@ -27,9 +27,9 @@ collections:
       - {label: "Content", name: "content", widget: "markdown"}
   - name: "metadata"
     label: "Metadata"
-    folder: "content/metadata"
+    folder: "static/content"
     create: true
-    extension: "md"
+    extension: "json"
     slug: "metadata.json"
     fields:
       - {label: "Title", name: "title", widget: "string"}
