@@ -30,7 +30,7 @@ collections:
     folder: "static/content"
     create: true
     extension: "json"
-    slug: "metadata.json"
+    slug: "metadata"
     fields:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Description", name: "description", widget: "markdown"}
