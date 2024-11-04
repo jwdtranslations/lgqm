@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: sqooid/novel-static
-  branch: decap
+  repo: __GITHUB_REPOSITORY__
+  branch: main
   commit_messages:
     create: Create {{collection}} “{{slug}}”
     update: Update {{collection}} “{{slug}}”
