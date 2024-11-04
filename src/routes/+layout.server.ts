@@ -1,10 +1,9 @@
-import type { ChapterMetadata } from '$lib/metadata';
-import fm from 'front-matter';
-import type { LayoutLoad } from './$types';
-import { building, dev } from '$app/environment';
 import { base } from '$app/paths';
-import type { MetadataInput } from '$lib/metadata-tags';
 import { PUBLIC_BASE_URL } from '$env/static/public';
+import type { ChapterMetadata } from '$lib/metadata';
+import type { MetadataInput } from '$lib/metadata-tags';
+import fm from 'front-matter';
+import type { LayoutServerLoad } from './$types';
 
 export const ssr = true;
 export const prerender = true;
@@ -14,24 +13,22 @@ type Chapter = { slug: string; path: string; metadata: ChapterMetadata };
 type Metadata = {
 	title: string;
 	shortDescription: string;
-	iconName: string;
-	volumeNameOverrides: Record<string, string>;
-	cover: {
-		alt: string;
-		width: number;
-		height: number;
-	};
+	description: string;
+	volumeOverrides?: { volume: string; replacement: string }[];
+	icon: string;
+	cover: string;
 };
 
-export const load: LayoutLoad = async (e) => {
+const imageToUrl = (image: string) =>
+	image.startsWith('/') ? `${PUBLIC_BASE_URL}${base}${image.replace('/static', '')}` : image;
+
+export const load: LayoutServerLoad = async (e) => {
 	const metadata: Metadata = await e
 		.fetch(`${base}/content/metadata.json`)
 		.then((res) => res.json());
-	const modules = import.meta.glob('/static/content/*/*.md');
+	const modules = import.meta.glob('/static/content/chapters/**/index.md');
 
-	const descriptionMarkdown = await e
-		.fetch(`${base}/content/description.md`)
-		.then((res) => res.text());
+	const descriptionMarkdown = metadata.description;
 
 	// group paths
 	const groupedPaths: Record<string, Chapter[]> = {};
@@ -40,20 +37,28 @@ export const load: LayoutLoad = async (e) => {
 		const content = await e.fetch(filePath).then((res) => res.text());
 		const data = fm(content);
 		const metadata = data.attributes as ChapterMetadata;
-		const path = m.match(/\/content\/(.*)\.md/)?.[1];
+		const path = m.match(/\/content\/chapters\/(.*)\/index\.md/)?.[1];
 		if (!path) continue;
-		const segs = path.split('/', 2);
-		const slug = segs.map(encodeURIComponent).join('/');
-		if (!groupedPaths[metadata.volume]) groupedPaths[metadata.volume] = [];
-		groupedPaths[metadata.volume].push({ slug, metadata, path: filePath });
+		const slug = path;
+		const key = metadata.volume;
+		if (!groupedPaths[key]) groupedPaths[key] = [];
+		groupedPaths[key].push({ slug, metadata, path: filePath });
 	}
 
 	// sort paths
 	const sortedVolumeValues = Object.keys(groupedPaths).sort((a, b) => parseInt(a) - parseInt(b));
+	const volumeOverrides = (metadata.volumeOverrides ?? []).reduce(
+		(acc, { volume, replacement }) => {
+			acc[volume] = replacement;
+			return acc;
+		},
+		{} as Record<string, string>
+	);
+
 	const sortedVolumes = sortedVolumeValues.map((volume) => {
 		groupedPaths[volume].sort((a, b) => a.metadata.chapter - b.metadata.chapter);
 		const volumeValue = groupedPaths[volume][0].metadata.volume;
-		const volumeName = metadata.volumeNameOverrides[volumeValue] || `Volume ${volumeValue}`;
+		const volumeName = volumeOverrides[volumeValue] || `Volume ${volumeValue}`;
 		return { volumeName, chapters: groupedPaths[volume] };
 	});
 
@@ -65,13 +70,12 @@ export const load: LayoutLoad = async (e) => {
 		canonical: base,
 		images: [
 			{
-				url: `${PUBLIC_BASE_URL}${base}/content/cover.jpg`,
-				alt: metadata.cover.alt,
-				width: metadata.cover.width,
-				height: metadata.cover.height
+				url: imageToUrl(metadata.cover),
+				alt: 'Cover image'
 			}
 		]
 	};
+	metadata.icon = imageToUrl(metadata.icon);
 
 	const data = {
 		metadata: metadata,

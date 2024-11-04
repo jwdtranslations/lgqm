@@ -1,12 +1,18 @@
 import type { ChapterMetadata } from '$lib/metadata';
 import fm from 'front-matter';
-import type { PageLoad } from './$types';
 import type { MetadataInput } from '$lib/metadata-tags';
+import type { PageServerLoad } from './$types';
 
-export const load: PageLoad = async ({ params, parent, fetch }) => {
+export const load: PageServerLoad = async ({ params, parent, fetch }) => {
 	const { slug } = params;
+
 	const parentData = await parent();
 	const index = parentData.allChapters.findIndex((c) => c.slug === slug);
+	const chapter = parentData.allChapters[index];
+	if (!chapter) {
+		console.log('Chapter not found:', slug);
+		throw new Error(`Chapter not found: ${slug}`);
+	}
 	const markdown = await fetch(parentData.allChapters[index].path).then((res) => res.text());
 	const content = fm(markdown);
 	const prevChapter = parentData.allChapters[index - 1];
@@ -15,7 +21,7 @@ export const load: PageLoad = async ({ params, parent, fetch }) => {
 	const attrs = content.attributes as ChapterMetadata;
 
 	let title = parentData.baseMetaTags.title;
-	if (!parentData.metadata.volumeNameOverrides[attrs.volume]) {
+	if (!parentData.metadata.volumeOverrides?.[attrs.volume]) {
 		title += ` | Volume ${attrs.volume}`;
 	}
 	if (attrs.chapter >= 0) title += ` | Chapter ${attrs.chapter}`;

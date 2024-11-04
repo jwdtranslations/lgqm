@@ -16,13 +16,12 @@ collections:
     folder: "static/content/chapters"
     create: true
     nested:
-      depth: 1
+      depth: 3
       summary: "Volume {{volume}}"
     extension: "md"
-    slug: "{{fields.slug}}"
+    slug: "volume-{{volume}}/chapter-{{chapter}}"
     summary: "Chapter {{chapter}} - {{title}}"
     fields:
-      - {label: "Slug", name: "slug", widget: "string"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Volume", name: "volume", widget: "number"}
       - {label: "Chapter", name: "chapter", widget: "number"}
@@ -33,7 +32,6 @@ collections:
       path:
         widget: string
         label: Path
-        name: path
         index_file: index
   - name: "metadata"
     label: "Metadata"
