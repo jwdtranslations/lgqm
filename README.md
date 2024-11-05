@@ -2,6 +2,8 @@
 
 Deploy novels to Github pages as static web pages.
 
+Now uses [DecapCMS](https://decapcms.org/) for content editing within the browser.
+
 ## Setup
 
 1. Fork the repository. Make sure to also copy the actions workflow.
@@ -9,48 +11,36 @@ Deploy novels to Github pages as static web pages.
 3. Set the build variables (Settings -> Secrets and variables -> Actions -> Variables) `REMARK42_URL`, `REMARK42_SITE_ID`, `BASE_URL` to your correct values.
    The remark42 variables are for the comment system.
    An example `BASE_URL` for a site hosted on github pages is `https://sqooid.github.io` (excludes the repository name).
-4. Edit the files in `static/content` to suit your needs.
-5. Commits to the branch `main` are then automatically built and pushed to the Github pages site.
+4. Let the site deploy
+5. Go to `${BASE_URL}/${REPOSITORY_NAME}/admin/index.html` to access the CMS and edit chapters/metadata.
 
-### How it works
+### Creating content
 
-Example pages and metadata are shown in the `static/content` folder.
-All following paths are relative to this directory.
+Navigate to the CMS at `/${REPOSITORY_NAME}/admin/index.html` and log in with the Github account that has access to the repository.
+The CMS works by making commits (creating markdown files) on your behalf to the website's repository, which is then automatically rebuilt and deployed.
 
-Novel data and other overrides are stored in `metadata.json`.
-Check the example file for what can be specified.
-Most of the fields here are used for metadata tags (search engine info and rich links)
-Currently, only volume names can be overriden.
+Create a new chapter by clicking on the "Chapter" collection tab on the left and then clicking "New Chapter".
+In the "Path" field, input something like `volume-1/chapter-1`.
+This field determines the slug (url) that will be used to access the chapter.
+The chapters must be within exactly one level of subdirectory (as in the above example).
 
-The novel description is stored in the file `description.md`.
-This content is shown on the root page above the table of contents.
-
-All other pages must be stored in paths of the form `${volume-slug}/${chapter-slug}.md`.
-`${volume-slug}` is the text that will be shown in the url for all files in that volume.
-`${chapter-slug}` is the text that will be shown in the url for that that chapter.
-For example, the file `book-1/chapter-1.md` will be accessible at `book-1/chapter-1`.
-Only use alphanumeric, - and \_ characters in the file names.
-
-Organisation of the pages on the table of contents is controlled by the frontmatter metadata stored in each chapter's markdown file.
-Check the example chapters to see the syntax.
-Currently it can have the following fields:
-
-```
-title: string;
-volume: number;
-chapter: number;
-date: Date;
-hideComments?: boolean;
-```
+The other fields are fairly self-explanatory.
+However, there are some special cases, which are explained below
 
 Files with the same `volume` value are grouped together.
 Files within the same volume are sorted by their chapter value, and volumes are sorted the same way.
 
+### Metadata
+
+The "Metadata" collection controls the `metadata.json` file.
+Here, you control the data on the root page - i.e. the table of contents - as well as the content that is shown in rich links and on search engines.
+
+The "Volume Overrides" field can be used to hardcode a different value for specific volume values for things such as prefaces and blurbs (more below).
+
 ### Prefaces and other information
 
-You can create sections for auxilliary content (check the example "Extra Information" section).
-By defining a key in volumeNameOverrides of metadata.json, you can create custom volume names for things like prefaces and blurbs
-Give the chapter a negative value to hide the chapter number from rendering. Chapters will still be listed in ascending order, but the numbers will not be shown.
+You can create sections for auxilliary content (Metadata collection for a demo example).
+Give a chapter a negative value to hide the chapter number from rendering. Chapters will still be listed in ascending order, but the numbers will not be shown.
 
 ## Developing (live preview)
 

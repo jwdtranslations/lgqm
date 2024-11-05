@@ -47,6 +47,10 @@ jobs:
           cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install
+      - name: Vars
+        uses: falnyr/replace-env-vars-action@v1.3.2
+        with:
+          filename: static/admin/config.yml
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build

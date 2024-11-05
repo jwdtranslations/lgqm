@@ -1,11 +1,10 @@
 ---
 title: Preface
 volume: 0
-chapter: -1
-date: 2024-10-31
+chapter: -50
+date: 2024-11-05T00:30:00.000Z
 hideComments: true
 ---
-
 By defining a key in `volumeNameOverrides` of `metadata.json`, you can create custom volume names for things like prefaces and blurbs
 
 Give the chapter a negative value to hide the chapter number from rendering.

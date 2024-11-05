@@ -23,7 +23,7 @@
 </script>
 
 <svelte:head>
-	<link rel="icon" href={`${base}/content/${data.metadata.iconName}`} />
+	<link rel="icon" href={data.metadata.icon} />
 	<link rel="preconnect" href="https://fonts.googleapis.com" />
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
 	<link
@@ -39,7 +39,7 @@
 <div class={`mt-8`} style={`font-family: ${fontMap[appConfig.value.font]};`}>
 	<div class="mx-auto mb-8 max-w-prose">
 		<div class="flex items-center justify-between">
-			<a class="text-4xl font-extrabold tracking-tight lg:text-5xl" href={base}>
+			<a class="text-4xl font-extrabold tracking-tight lg:text-5xl" href={base || '/'}>
 				{data.metadata.title}
 			</a>
 			<div class="float-right">

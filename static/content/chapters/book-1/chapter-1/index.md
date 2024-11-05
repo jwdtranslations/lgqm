@@ -1,10 +1,10 @@
 ---
-title: Lorem ipsum
+title: Lorem Ipsum
 volume: 1
-chapter: 2
-date: 2024-10-31
+chapter: 1
+date: 2024-11-05T00:25:00.000Z
+hideComments: false
 ---
-
 _Pellentesque ullamcorper nisi at bibendum posuere._  
 Lorem ipsum dolor sit amet, consectetur adipiscing elit[^1]. Maecenas scelerisque diam quis lorem commodo fermentum. Integer eu urna quis neque viverra vehicula. Praesent sit amet ligula imperdiet, finibus nibh eget, aliquam erat. Duis eu magna tellus. Sed libero lectus, semper at pharetra non, rhoncus eu ligula. Sed sit amet sapien sit amet ante accumsan varius. Proin feugiat semper sapien a congue.
 

@@ -1,13 +1,13 @@
 {
   "title": "Novel Title",
-  "shortDescription": "Short Description for metadata tags",
-  "iconName": "favicon.ico",
-  "volumeNameOverrides": {
-    "0": "Extra Information"
-  },
-  "cover": {
-    "alt": "Novel Cover for metadata tags",
-    "width": 5472,
-    "height": 3648
-  }
+  "description": "Insert description markdown here.\n\n![](https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp)\n\nMarkdown guide https://www.markdownguide.org/cheat-sheet/\n",
+  "shortDescription": "asd",
+  "icon": "/static/images/uploads/favicon.png",
+  "cover": "https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp",
+  "volumeOverrides": [
+    {
+      "volume": 0,
+      "replacement": "Extra Information"
+    }
+  ]
 }

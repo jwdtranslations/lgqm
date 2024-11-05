@@ -5,9 +5,9 @@ export type MetadataInput = {
 	canonical: string;
 	images: {
 		url: string;
-		alt: string;
-		width: number;
-		height: number;
+		alt?: string;
+		width?: number;
+		height?: number;
 	}[];
 };
 

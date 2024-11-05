@@ -1,0 +1,53 @@
+backend:
+  name: github
+  repo: __GITHUB_REPOSITORY__
+  branch: main
+  commit_messages:
+    create: Create {{collection}} “{{slug}}”
+    update: Update {{collection}} “{{slug}}”
+    delete: Delete {{collection}} “{{slug}}”
+    uploadMedia: Upload “{{path}}”
+    deleteMedia: Delete “{{path}}”
+    openAuthoring: '{{message}}'
+media_folder: /static/images/uploads
+collections:
+  - name: "chapter"
+    label: "Chapter"
+    folder: "static/content/chapters"
+    create: true
+    nested:
+      depth: 3
+      summary: "Volume {{volume}}"
+    extension: "md"
+    slug: "volume-{{volume}}/chapter-{{chapter}}"
+    summary: "Chapter {{chapter}} - {{title}}"
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Volume", name: "volume", widget: "number"}
+      - {label: "Chapter", name: "chapter", widget: "number"}
+      - {label: "Date", name: "date", widget: "datetime"}
+      - {label: "Hide comments", name: "hideComments", widget: "boolean", default: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+    meta:
+      path:
+        widget: string
+        label: Path
+        index_file: index
+  - name: "metadata"
+    label: "Metadata"
+    files:
+      - label: "Metadata"
+        file: static/content/metadata.json
+        name: "metadata"
+        fields:
+          - {label: "Title", name: "title", widget: "string"}
+          - {label: "Description", name: "description", widget: "markdown"}
+          - {label: "Short description", name: "shortDescription", widget: "string"}
+          - {label: "Icon", name: "icon", widget: "image"}
+          - {label: "Cover", name: "cover", widget: "image"}
+          - label: "volumeOverrides"
+            name: "volumeOverrides"
+            widget: "list"
+            fields:
+              - {label: "Volume", name: "volume", widget: "number"}
+              - {label: "Replacement", name: "replacement", widget: "string"}            
