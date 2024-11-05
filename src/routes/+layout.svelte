@@ -37,7 +37,7 @@
 <ModeWatcher />
 
 <div class={`mt-8`} style={`font-family: ${fontMap[appConfig.value.font]};`}>
-	<div class="mx-auto mb-8 max-w-prose">
+	<header class="mx-auto mb-8 max-w-prose">
 		<div class="flex items-center justify-between">
 			<a class="text-4xl font-extrabold tracking-tight lg:text-5xl" href={base || '/'}>
 				{data.metadata.title}
@@ -46,6 +46,6 @@
 				<ConfigPopover />
 			</div>
 		</div>
-	</div>
+	</header>
 	{@render children()}
 </div>

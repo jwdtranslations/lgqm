@@ -23,8 +23,8 @@
 	const dateString = $derived(moment(data.attrs.date).format('MMMM Do, YYYY'));
 </script>
 
-<div class="mx-auto mb-24 max-w-prose p-1">
-	<div class="prose dark:prose-invert">
+<main class="mx-auto mb-24 max-w-prose p-1">
+	<article class="prose dark:prose-invert">
 		{#if volumeOverriden}
 			<h2>{volumeName}</h2>
 		{/if}
@@ -39,9 +39,9 @@
 		<div class="mb-16">
 			{@html rendered}
 		</div>
-	</div>
+	</article>
 	<!-- nav -->
-	<div class="mb-16 flex justify-between">
+	<nav class="mb-16 flex justify-between">
 		<div>
 			{#if data.prevChapter}
 				<Button href={`${base}/${data.prevChapter.slug}`} variant="outline">Previous</Button>
@@ -52,14 +52,16 @@
 				<Button href={`${base}/${data.nextChapter.slug}`} variant="outline">Next</Button>
 			{/if}
 		</div>
-	</div>
+	</nav>
 	<!-- comments -->
 	{#if !data.attrs.hideComments && browser}
-		{#key [$page.url.pathname, $mode]}
-			<Remark42 />
-		{/key}
+		<aside>
+			{#key [$page.url.pathname, $mode]}
+				<Remark42 />
+			{/key}
+		</aside>
 	{/if}
-</div>
+</main>
 
 <style lang="postcss">
 	:global(a.footnote-backref) {
