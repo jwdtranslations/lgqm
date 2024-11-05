@@ -2,6 +2,7 @@ backend:
   name: github
   repo: sqooid/novel-static
   branch: main
+  base_url: https://sveltia-cms-auth.sqooiddev.workers.dev
   commit_messages:
     create: Create {{collection}} “{{slug}}”
     update: Update {{collection}} “{{slug}}”
