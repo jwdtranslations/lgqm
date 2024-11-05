@@ -12,17 +12,20 @@ Now uses [DecapCMS](https://decapcms.org/) for content editing within the browse
    The remark42 variables are for the comment system.
    An example `BASE_URL` for a site hosted on github pages is `https://sqooid.github.io` (excludes the repository name).
 4. Let the site deploy
-5. Go to `${BASE_URL}/${REPOSITORY_NAME}/admin/index.html` to access the CMS and edit chapters/metadata.
+5. Go to `${BASE_URL}/${REPOSITORY_NAME}/admin` to access the CMS and edit chapters/metadata.
+
+To set up authentication for Github, follow this [guide](https://github.com/sveltia/sveltia-cms-auth?tab=readme-ov-file).
 
 ### Creating content
 
 Navigate to the CMS at `/${REPOSITORY_NAME}/admin/index.html` and log in with the Github account that has access to the repository.
 The CMS works by making commits (creating markdown files) on your behalf to the website's repository, which is then automatically rebuilt and deployed.
 
-Create a new chapter by clicking on the "Chapter" collection tab on the left and then clicking "New Chapter".
-In the "Path" field, input something like `volume-1/chapter-1`.
-This field determines the slug (url) that will be used to access the chapter.
-The chapters must be within exactly one level of subdirectory (as in the above example).
+Create a new chapter by clicking on the "Chapter" collection tab on the left and then clicking "New".
+The path, and therefore the slug (url) that will be used to access the chapter is automatically set as `volume-${volume}/chapter-${chapter}`
+
+If you want a page to have a custom slug - e.g. `info/preface` - then provide that value in the `slug` field for the chapter.
+Make sure there is no leading or trailing slash.
 
 The other fields are fairly self-explanatory.
 However, there are some special cases, which are explained below
@@ -55,4 +58,3 @@ This will allow you to see changes live.
 ## TODO's
 
 - section for latest chapters
-- show chapter release date

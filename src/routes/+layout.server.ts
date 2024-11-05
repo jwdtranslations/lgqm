@@ -36,13 +36,13 @@ export const load: LayoutServerLoad = async (e) => {
 		const filePath = m.replace('/static', base);
 		const content = await e.fetch(filePath).then((res) => res.text());
 		const data = fm(content);
-		const metadata = data.attributes as ChapterMetadata;
+		const chapterMetadata = data.attributes as ChapterMetadata;
 		const path = m.match(/\/content\/chapters\/(.*)\.md/)?.[1];
 		if (!path) continue;
-		const slug = path;
-		const key = metadata.volume;
+		const slug = chapterMetadata.slug ?? path;
+		const key = chapterMetadata.volume;
 		if (!groupedPaths[key]) groupedPaths[key] = [];
-		groupedPaths[key].push({ slug, metadata, path: filePath });
+		groupedPaths[key].push({ slug, metadata: chapterMetadata, path: filePath });
 	}
 
 	// sort paths

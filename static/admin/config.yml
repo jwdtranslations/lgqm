@@ -23,6 +23,7 @@ collections:
     slug: "volume-{{volume}}/chapter-{{chapter}}"
     summary: "Volume {{volume}} | Chapter {{chapter}} | {{title}}"
     fields:
+      - {label: "Slug", name: "slug", widget: "string", required: false}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Volume", name: "volume", widget: "number", preview: false}
       - {label: "Chapter", name: "chapter", widget: "number", preview: false}
