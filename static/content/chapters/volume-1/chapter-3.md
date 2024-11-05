@@ -1,11 +1,12 @@
 ---
-title: Chapter 3
+title: No comment
 volume: 1
 chapter: 3
 date: 2024-11-05T17:53:00
 hideComments: true
 ---
-_Pellentesque ullamcorper nisi at bibendum posuere._  
+
+_Pellentesque ullamcorper nisi at bibendum posuere._
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit[^1]. Maecenas scelerisque diam quis lorem commodo fermentum. Integer eu urna quis neque viverra vehicula. Praesent sit amet ligula imperdiet, finibus nibh eget, aliquam erat. Duis eu magna tellus. Sed libero lectus, semper at pharetra non, rhoncus eu ligula. Sed sit amet sapien sit amet ante accumsan varius. Proin feugiat semper sapien a congue.
 

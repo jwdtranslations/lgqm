@@ -26,7 +26,7 @@ export const load: LayoutServerLoad = async (e) => {
 	const metadata: Metadata = await e
 		.fetch(`${base}/content/metadata.json`)
 		.then((res) => res.json());
-	const modules = import.meta.glob('/static/content/chapters/**/index.md');
+	const modules = import.meta.glob('/static/content/chapters/**/*.md');
 
 	const descriptionMarkdown = metadata.description;
 
@@ -37,7 +37,7 @@ export const load: LayoutServerLoad = async (e) => {
 		const content = await e.fetch(filePath).then((res) => res.text());
 		const data = fm(content);
 		const metadata = data.attributes as ChapterMetadata;
-		const path = m.match(/\/content\/chapters\/(.*)\/index\.md/)?.[1];
+		const path = m.match(/\/content\/chapters\/(.*)\.md/)?.[1];
 		if (!path) continue;
 		const slug = path;
 		const key = metadata.volume;

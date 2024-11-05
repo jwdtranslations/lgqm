@@ -47,10 +47,9 @@ jobs:
           cache: 'pnpm'
       - name: Install dependencies
         run: pnpm install
-      - name: Vars
-        uses: falnyr/replace-env-vars-action@v1.3.2
-        with:
-          filename: static/admin/config.yml
+      - name: Configure CMS file
+        run: |
+          sed -i "s|sqooid/novel-static|$__GITHUB_REPOSITORY__|g" static/admin/config.yml
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build

@@ -1,7 +1,7 @@
 {
   "title": "Novel Title",
   "description": "Insert description markdown here.\n\n![](https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp)\n\nMarkdown guide https://www.markdownguide.org/cheat-sheet/\n",
-  "shortDescription": "asd",
+  "shortDescription": "A short description",
   "icon": "/static/images/uploads/favicon.png",
   "cover": "https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp",
   "volumeOverrides": [

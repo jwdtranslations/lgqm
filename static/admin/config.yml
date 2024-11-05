@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: __GITHUB_REPOSITORY__
+  repo: sqooid/novel-static
   branch: main
   commit_messages:
     create: Create {{collection}} “{{slug}}”
@@ -20,13 +20,13 @@ collections:
       summary: "Volume {{volume}}"
     extension: "md"
     slug: "volume-{{volume}}/chapter-{{chapter}}"
-    summary: "Chapter {{chapter}} - {{title}}"
+    summary: "Volume {{volume}} | Chapter {{chapter}} | {{title}}"
     fields:
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Volume", name: "volume", widget: "number"}
-      - {label: "Chapter", name: "chapter", widget: "number"}
+      - {label: "Volume", name: "volume", widget: "number", preview: false}
+      - {label: "Chapter", name: "chapter", widget: "number", preview: false}
       - {label: "Date", name: "date", widget: "datetime"}
-      - {label: "Hide comments", name: "hideComments", widget: "boolean", default: false}
+      - {label: "Hide comments", name: "hideComments", widget: "boolean", default: false, preview: false}
       - {label: "Body", name: "body", widget: "markdown"}
     meta:
       path:
