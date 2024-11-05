@@ -59,7 +59,7 @@ export const load: LayoutServerLoad = async (e) => {
 		groupedPaths[volume].sort((a, b) => a.metadata.chapter - b.metadata.chapter);
 		const volumeValue = groupedPaths[volume][0].metadata.volume;
 		const volumeName = volumeOverrides[volumeValue] || `Volume ${volumeValue}`;
-		return { volumeName, chapters: groupedPaths[volume] };
+		return { volumeName, volumeValue, chapters: groupedPaths[volume] };
 	});
 
 	const allChapters = sortedVolumes.flatMap((volume) => volume.chapters);
@@ -79,6 +79,7 @@ export const load: LayoutServerLoad = async (e) => {
 
 	const data = {
 		metadata: metadata,
+		volumeOverrides,
 		volumes: sortedVolumes,
 		allChapters,
 		descriptionMarkdown,

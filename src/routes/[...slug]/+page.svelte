@@ -3,8 +3,8 @@
 	import { base } from '$app/paths';
 	import { page } from '$app/stores';
 	import { Button } from '$lib/components/ui/button';
-	import { appConfig } from '$lib/config.svelte.js';
 	import Remark42 from '$lib/remark42.svelte';
+	import moment from 'moment';
 	import markdownit from 'markdown-it';
 	import footnote from 'markdown-it-footnote';
 	import { mode } from 'mode-watcher';
@@ -15,14 +15,27 @@
 	md.linkify.set({ fuzzyEmail: false });
 
 	const rendered = $derived(md.render(data.body));
+
+	const volumeName = $derived(
+		data.volumes.find((v) => v.volumeValue === data.attrs.volume)?.volumeName ?? ''
+	);
+	const volumeOverriden = $derived(Boolean(data.volumeOverrides[data.attrs.volume]));
+	const dateString = $derived(moment(data.attrs.date).format('MMMM Do, YYYY'));
 </script>
 
 <div class="mx-auto mb-24 max-w-prose p-1">
 	<div class="prose dark:prose-invert">
+		{#if volumeOverriden}
+			<h2>{volumeName}</h2>
+		{/if}
 		<h1>{data.attrs.title}</h1>
+		{#if !volumeOverriden}
+			<h2>{volumeName}</h2>
+		{/if}
 		{#if data.attrs.chapter >= 0}
 			<h2>Chapter {data.attrs.chapter}</h2>
 		{/if}
+		<span class="text-sm text-muted-foreground">Published {dateString}</span>
 		<div class="mb-16">
 			{@html rendered}
 		</div>
