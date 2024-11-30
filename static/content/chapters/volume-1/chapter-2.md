@@ -6,8 +6,6 @@ chapter: 2
 date: 2024-11-30T00:16:00
 hideComments: false
 ---
-_## Chapter 2 \- The Chief’s Ambition_
-
 Wen Desi then briefly narrated his experiences when he went through the portal by himself. The other end of it lay at the base of a non-descript hill, right on the side of a river. Judging from the development of the surrounding land it appeared to be a rather prosperous agricultural region. The geography and vegetation placed him in the southern reaches of China. Just as he was contemplating whether or not he wanted to take a risk and venture further to try to scout out a village, something unexpected happened. 
 
 A group of soldiers in old-fashioned armour had escorted a dozen or so villagers to the riverside, under the command of a mounted officer. Swiftly several heads went flying, and with a clatter, only a few broken weapons were left next to the corpses. The soldiers gathered around their officer and soon left.
