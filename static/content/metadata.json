@@ -1,6 +1,6 @@
 {
   "title": "Novel Title",
-  "description": "Insert description markdown here.\n\n![](https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp)\n\nMarkdown guide https://www.markdownguide.org/cheat-sheet/\n",
+  "description": "Insert description markdown here.\n\n![](https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp)\n\nMarkdown guide https://www.markdownguide.org/cheat-sheet/",
   "shortDescription": "A short description",
   "icon": "/static/images/uploads/favicon.png",
   "cover": "https://static.vecteezy.com/vite/assets/photo-masthead-375-BoK_p8LG.webp",
@@ -8,6 +8,10 @@
     {
       "volume": 0,
       "replacement": "Extra Information"
+    },
+    {
+      "volume": 1,
+      "replacement": "1 - Setting Sail"
     }
   ]
 }
