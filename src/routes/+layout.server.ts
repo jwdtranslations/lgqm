@@ -39,7 +39,7 @@ export const load: LayoutServerLoad = async (e) => {
 		const chapterMetadata = data.attributes as ChapterMetadata;
 		const path = m.match(/\/content\/chapters\/(.*)\.md/)?.[1];
 		if (!path) continue;
-		const slug = chapterMetadata.slug.trim() || path;
+		const slug = chapterMetadata.slug?.trim() || path;
 		const key = chapterMetadata.volume;
 		if (!groupedPaths[key]) groupedPaths[key] = [];
 		groupedPaths[key].push({ slug, metadata: chapterMetadata, path: filePath });
