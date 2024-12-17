@@ -6,7 +6,6 @@ chapter: 1
 date: 2024-11-05T00:25:00
 hideComments: false
 ---
-```
 *Guangzhou. A certain day in 2008.[^7]*  
 Xiao Zishan was born in the late seventies, and was a rather average guy: average family,  average looks, average grades, and he wasn’t a particularly ambitious or hardworking person either.  
 After Xiao Zishan got his bachelor's degree, he did a few short stints at several companies in the Pearl River delta[^8] area. During this time he got scammed by a black-hearted boss and also fell flat reaching for his unrealistic dreams. In the end he found a not-too-shabby job at a foreign company, and worked hard there to earn his keep. In the blink of an eye, almost seven years had passed, and he has running up on thirty years of age but still living in a rented apartment[^9]. He didn’t really have any hobbies apart from dabbling in a little history and reading some niche books. He was still one of those single men who celebrated November 11th[^10], as he could barely even remember the face of his ex whom he had long since broken up with. 
@@ -115,5 +114,4 @@ On that pleasant note, the transitions between any of the imperial dynasties wer
 
 [^19]:  References to oft-used premises in *isekai* novels. If you’re reading this you probably know what I’m talking about. If not, well, how the hell did you find this novel?
 
-[^20]:  天启 Romanised as Tianqi. The reign name of the 16th emperor of the Ming Dynasty, ruling between 1620-1627. 
-```
+[^20]:  天启 Romanised as Tianqi. The reign name of the 16th emperor of the Ming Dynasty, ruling between 1620-1627.
