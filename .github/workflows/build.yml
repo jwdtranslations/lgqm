@@ -50,7 +50,8 @@ jobs:
       - name: Configure CMS file
         run: |
           sed -i "s|repo:.*|repo: ${GITHUB_REPOSITORY}|g" static/admin/config.yml
-          sed -i "s|public_folder:.*|public_folder: /${GITHUB_REPOSITORY}/images/uploads|g" static/admin/config.yml
+          REPO_NAME=$(echo ${GITHUB_REPOSITORY} | cut -d'/' -f2)
+          sed -i "s|public_folder:.*|public_folder: /${REPO_NAME}/images/uploads|g" static/admin/config.yml
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Build
