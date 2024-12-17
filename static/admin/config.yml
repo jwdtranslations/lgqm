@@ -11,6 +11,7 @@ backend:
     deleteMedia: Delete “{{path}}”
     openAuthoring: '{{message}}'
 media_folder: /static/images/uploads
+public_folder: /novel-static/images/uploads
 collections:
   - name: "chapter"
     label: "Chapter"
