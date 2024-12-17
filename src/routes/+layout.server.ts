@@ -20,7 +20,7 @@ type Metadata = {
 };
 
 const imageToUrl = (image: string) =>
-	image.startsWith('/') ? `${PUBLIC_BASE_URL}${base}${image.replace('/static', '')}` : image;
+	image.startsWith('/') ? `${PUBLIC_BASE_URL}${image}` : image;
 
 export const load: LayoutServerLoad = async (e) => {
 	const metadata: Metadata = await e
