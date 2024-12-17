@@ -134,7 +134,7 @@ A term that pops up a lot is 佛郎机 (Falangji or Folangji), which, if taken a
 
 [^30]:  A tael (liang) is a chinese unit of weight, equal to about 50 grams metric or one sixteenth of a catty (Jin). Note however that the precise definitions in ancient China varied geographically and over time. The weight is most often used as a unit of mass of silver used as a currency.
 
-[^31]:  A government office in ancient China responsible for keeping the coastlines safe from foreigners. A *yamen* is a word meaning a government office in imperial China
+[^31]:  A government office in ancient China responsible for keeping the coastlines safe from foreigners. A _yamen_ is a word meaning a government office in imperial China
 
 [^32]:  An ancient Chinese customs office. [https://zh.wikipedia.org/wiki/%E5%B8%82%E8%88%B6%E5%8F%B8](https://zh.wikipedia.org/wiki/%E5%B8%82%E8%88%B6%E5%8F%B8)
 
@@ -148,4 +148,4 @@ A term that pops up a lot is 佛郎机 (Falangji or Folangji), which, if taken a
 
 [^37]:  1521-1567 AD
 
-[^38]:  Youyuzhou, I can’t find where this actually is. Presumably somewhere close to the estuary, but English search isn’t giving any useful results. From what I can tell it was a name that the locals used for a region along the river where most of the merchant fleets would offload their cargo (outside of Guangzhou), but the name didn’t stick around into the modern day. If someone knows where this is let me know\!
+[^38]:  Youyuzhou (游鱼洲), now known as Aozhou (鳌洲).
