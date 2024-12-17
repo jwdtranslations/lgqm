@@ -6,7 +6,7 @@ chapter: 1
 date: 2024-11-05T00:25:00
 hideComments: false
 ---
-*Guangzhou. A certain day in 2008.[^7]*  
+_Guangzhou. A certain day in 2008.[^7]_  
 Xiao Zishan was born in the late seventies, and was a rather average guy: average family,  average looks, average grades, and he wasn’t a particularly ambitious or hardworking person either.  
 After Xiao Zishan got his bachelor's degree, he did a few short stints at several companies in the Pearl River delta[^8] area. During this time he got scammed by a black-hearted boss and also fell flat reaching for his unrealistic dreams. In the end he found a not-too-shabby job at a foreign company, and worked hard there to earn his keep. In the blink of an eye, almost seven years had passed, and he has running up on thirty years of age but still living in a rented apartment[^9]. He didn’t really have any hobbies apart from dabbling in a little history and reading some niche books. He was still one of those single men who celebrated November 11th[^10], as he could barely even remember the face of his ex whom he had long since broken up with. 
 
@@ -48,7 +48,7 @@ Little did Xiao Zishan know that the moment he clicked that fateful night, his l
 
 ---
 
-*Guangzhou. One week later. 2008*.  
+_Guangzhou. One week later. 2008_.  
 “This is the wormhole?” Xiao Zishan carefully watched the glowing object before him. Strictly speaking, this was just a not-quite circular hole, tinted with a sapphire glow. There wasn’t a big difference between this and the wormholes he had in mind, but the difference lay in the fact that the rays of light were not strong, and it was a lot smaller, only about as large as a washroom mirror.[^18] 
 
 “It’s very small.” Wang Luobin said. He was the same as Xiao Zishan, one of the first group of people to contact Chief Wen and decide to take a look.
@@ -56,7 +56,7 @@ Little did Xiao Zishan know that the moment he clicked that fateful night, his l
 “Applying a bit of pressure on the rim will make it expand.” Wen Desi said. He shuffled a bit on the lid of the toilet. Fitting three people into the bathroom was on the uncomfortable side of tight.   
 “It can expand or contract, as long as pressure is applied evenly around the rim. The change is synched with the other side. But once it shrinks to 210mm the channel will disconnect. The actual portal remains though.” 
 
-“Can it really let you go back *and* forth?” Xiao Zishan said. In his impression, time travel was usually one-way, if it wasn’t caused by sudden impact with a truck then it was being suddenly struck by lightning[^19]. The least violent method he knew of was to get lost in a misty forest. The universal feature was that it was always a one-way trip.
+“Can it really let you go back _and_ forth?” Xiao Zishan said. In his impression, time travel was usually one-way, if it wasn’t caused by sudden impact with a truck then it was being suddenly struck by lightning[^19]. The least violent method he knew of was to get lost in a misty forest. The universal feature was that it was always a one-way trip.
 
 “Well if it weren’t, I wouldn’t be able to make my post to the bulletin, and you two wouldn’t be here.” Wen Desi said. 
 
@@ -72,9 +72,9 @@ The two didn’t have a good comeback to that.
 
 “That’s right.” Wen Desi said. He pointed at the wormhole. “Do you have any idea what’s behind that? A whole world\!” He waved his arm excitedly. “Through it, I can have an entire earth, an entire universe\!”
 
-“One man, conquering a world?” Xiao Zishan expressed his doubts. 
+“One man, conquering an entire world?” Xiao Zishan expressed his doubts. 
 
-‘Ah, so that’s why I made that post…” Wen Desi seemed a little unreconciled with that fact.“Also, where the other end leads isn’t exactly something to get too happy about.”
+"Ah, so that’s why I made that post…” Wen Desi seemed a little unreconciled with that fact.“Also, where the other end leads isn’t exactly something to get too happy about.”
 
 “What time period?”
 
@@ -83,16 +83,17 @@ The two didn’t have a good comeback to that.
 Xian Zishan and Wang Luobin both took in a deep breath. This new world that Wen Desi had discovered was one the precipice of a terrible abyss. 
 
 \[TN\]  
-Some brief background on the time period our otaku friends are talking about. Tian Qi was the second last Ming Emperor, and reigned between 1620-1627 CE. He would be succeeded by his younger brother Chong Zhen in 1627\. Chong Zhen’s reign would in turn end in 1644 with him committing suicide after rebels entered the imperial capital Beijing. With Chong Zhen’s demise, so too would end the almost 300-year-old Ming Dynasty, the last imperial dynasty of China ruled by the Han people. The Ming Dynasty would be superseded by the Qing Dynasty led by the Manchu people. The Manchus would in turn last until the early 20th century, after which the history of imperial China comes to an end and we must turn to a history of modern China.   
-Now, it is important to note that there is some perception that the Qing Dynasty wasn’t a real “Chinese” dynasty because of racial reasons. The Han ethnicity are the majority ethnicity in China, constituting 92% of the modern population and making up almost 17.5% of the entire world’s population. Racial tensions are a fairly common point of conflict in pre-modern China. See for instance the literature surrounding one of the bloodiest conflicts in human history, which westerners should really know more about, the Taiping rebellion. This was an anti-Manchu revolt by the Han Chinese in the 1850s. More than twenty million people died as a direct result of this conflict.   
-On that pleasant note, the transitions between any of the imperial dynasties were indeed highly turbulent, chaotic times. Any passing student of Chinese history would know this. There would inevitably be widespread clashes between internal rebels and external invaders who all perceived the imperial throne to be weak and wanted to claim it for themselves. The conflicts would then cause famine and spread disease as armies moved across the continent. The Ming-Qing transition phase, which our time travellers are heading towards, is no exception. Comparing the histories of China and Western countries, the thing that stands out the most are the sheer death tolls. Conflicts involving hundreds of thousands would regularly show up, unlike in the West where we only really see such figures well into the industrial era. It is perhaps thus unsurprising that our protagonists are not exactly clapping with joy about where their tunnel—and fate—leads.  
+Some brief background on the time period our otaku friends are talking about. Tianqi was the reign name of the second last Ming Emperor, and reigned between 1620-1627 CE. He would be succeeded by his younger brother Chongzhen in 1627\. Chongzhen’s reign would in turn end in 1644 with him committing suicide after rebels entered the imperial capital Beijing. With Chong Zhen’s demise, so too would end the almost 300-year-old Ming Dynasty, the last imperial dynasty of China ruled by the Han people. The Ming Dynasty would be superseded by the Qing Dynasty led by the Manchu people. The Manchus would in turn last until the early 20th century, after which the history of imperial China comes to an end and we must turn to a history of modern China.   
 
+Now, it is important to note that there is some perception that the Qing Dynasty wasn’t a real “Chinese” dynasty because of racial reasons. The Han ethnicity are the majority ethnicity in China, constituting 92% of the modern population and making up almost 17.5% of the entire world’s population. Racial tensions are a fairly common point of conflict in pre-modern China. See for instance the literature surrounding one of the bloodiest conflicts in human history, which westerners should really know more about, the Taiping rebellion. This was an anti-Manchu revolt by the Han Chinese in the 1850s. More than twenty million people died as a direct result of this conflict.   
+
+On that pleasant note, the transitions between any of the imperial dynasties were indeed highly turbulent, chaotic times. There would inevitably be widespread clashes between internal rebels and external invaders who all perceived the imperial throne to be weak and wanted to claim it for themselves. The conflicts would then cause famine and spread disease as armies moved across the continent. The Ming-Qing transition phase, which our time travellers are heading towards, is no exception. It is perhaps thus unsurprising that our protagonists are not exactly clapping with joy about where their tunnel—and fate—leads.
 
 [^7]:  First chapter published June 2009 on Qidian. 
 
 [^8]:  The Pearl River delta is an area that covers modern day Guangdong, Hong Kong and Macao. 
 
-[^9]:  In China, there is a *very* strong perception that to ‘succeed’ as a man one must own a house and a car, as these are common requirements of the bride’s family (in China family opinion matters a *lot* when choosing a spouse, unlike here in the west)
+[^9]:  In China, there is a _very_ strong perception that to ‘succeed’ as a man one must own a house and a car, as these are common requirements of the bride’s family (in China family opinion matters a _lot_ when choosing a spouse, unlike here in the west)
 
 [^10]:  11/11. Known as Singles’ Day, an unofficial Chinese holiday. Main activity is online shopping. I think the connection between the date and being ‘single’ should be self-evident. 
 
@@ -112,6 +113,6 @@ On that pleasant note, the transitions between any of the imperial dynasties wer
 
 [^18]:  Think of the portals from the Portal game series (but you can’t see through it), so a flat 2D slice. 
 
-[^19]:  References to oft-used premises in *isekai* novels. If you’re reading this you probably know what I’m talking about. If not, well, how the hell did you find this novel?
+[^19]:  References to oft-used premises in _isekai_ novels. If you’re reading this you probably know what I’m talking about. If not, well, how the hell did you find this novel?
 
 [^20]:  天启 Romanised as Tianqi. The reign name of the 16th emperor of the Ming Dynasty, ruling between 1620-1627.
