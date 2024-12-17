@@ -6,7 +6,6 @@ chapter: 2
 date: 2024-11-30T00:16:00
 hideComments: false
 ---
-```
 Wen Desi then briefly told the other two of his first trip through the wormhole by himself.
 
 The other end of the portal lay at the foot of a non-descript hill, right on by the banks of a river. Wen Desi judged from the development of the surrounding land that it appeared to be a rather prosperous agricultural region. The geography and vegetation placed him in the southern reaches of China. Just as he was contemplating whether or not he wanted to take a risk and venture further to try to scout out a village, something unexpected happened. 
@@ -112,6 +111,7 @@ Haopan street in the Ming dynasty was a residential area for merchants from othe
 At least, as long as everyone was in the smuggling business, they would definitely not care about where these new strangers came from. Profit was the basic instinct of all merchants. From this point of view, the business people of Haopan street were the most suitable for first contact.
 
 \[TN\]   
+
 A term that pops up a lot is 佛郎机 (Falangji or Folangji), which, if taken at face value, would be rendered as Franks in English (referring to the German people), but this would be ignoring the historical context entirely. In Ming China this was a name for Portugal, but the Ming often referred to both Portugal and Spain interchangeably as Falangji. Later on it became more of an umbrella term for Western Europeans in general. This makes the translation in English a little difficult, as we don’t have such an equivalent historical term. Maybe Sportugal? I will be using Portugal/Portuguese, but keep in mind the original context is a bit more broad. For more historical details see [https://en.wikipedia.org/wiki/Farang](https://en.wikipedia.org/wiki/Farang). 
 
 [^21]:  The actual name of the coin, sort of like pounds, shillings etc., is ‘Tong Bao’
@@ -136,7 +136,7 @@ A term that pops up a lot is 佛郎机 (Falangji or Folangji), which, if taken a
 
 [^31]:  A government office in ancient China responsible for keeping the coastlines safe from foreigners. A *yamen* is a word meaning a government office in imperial China
 
-[^32]:  An ancient [Chinese customs office](https://zh.wikipedia.org/wiki/%E5%B8%82%E8%88%B6%E5%8F%B8)
+[^32]:  An ancient Chinese customs office. [https://zh.wikipedia.org/wiki/%E5%B8%82%E8%88%B6%E5%8F%B8](https://zh.wikipedia.org/wiki/%E5%B8%82%E8%88%B6%E5%8F%B8)
 
 [^33]:  “勘合路引”, meaning some sort of permit needed to travel on the roads? I imagine something similar to serfs in the feudal west, who had to get written permits from their local nobility to travel anywhere. They would usually be limited to a specific destination and time frame. Similar permits would be issued for other people such as skilled craftsmen or even merchants. I’m not familiar enough with Chinese feudal society to say exactly where the overlaps end, or even how these Chinese permits would work in practice. 
 
@@ -149,4 +149,3 @@ A term that pops up a lot is 佛郎机 (Falangji or Folangji), which, if taken a
 [^37]:  1521-1567 AD
 
 [^38]:  Youyuzhou, I can’t find where this actually is. Presumably somewhere close to the estuary, but English search isn’t giving any useful results. From what I can tell it was a name that the locals used for a region along the river where most of the merchant fleets would offload their cargo (outside of Guangzhou), but the name didn’t stick around into the modern day. If someone knows where this is let me know\!
-```
