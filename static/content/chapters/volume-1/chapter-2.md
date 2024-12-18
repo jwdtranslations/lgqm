@@ -134,9 +134,9 @@ A term that pops up a lot is 佛郎机 (Falangji or Folangji), which, if taken a
 
 [^30]:  A tael (liang) is a chinese unit of weight, equal to about 50 grams metric or one sixteenth of a catty (Jin). Note however that the precise definitions in ancient China varied geographically and over time. The weight is most often used as a unit of mass of silver used as a currency.
 
-[^31]:  A government office in ancient China responsible for keeping the coastlines safe from foreigners. A *yamen* is a word meaning a government office in imperial China
+[^31]:  A government office in ancient China responsible for keeping the coastlines safe from foreigners. A _yamen_ is a word meaning a government office in imperial China
 
-[^32]:  An [ancient Chinese customs office]. (https://zh.wikipedia.org/wiki/%E5%B8%82%E8%88%B6%E5%8F%B8)
+[^32]:  An [ancient Chinese customs office](https://zh.wikipedia.org/wiki/%E5%B8%82%E8%88%B6%E5%8F%B8)
 
 [^33]:  “勘合路引”, meaning some sort of permit needed to travel on the roads? I imagine something similar to serfs in the feudal west, who had to get written permits from their local nobility to travel anywhere. They would usually be limited to a specific destination and time frame. Similar permits would be issued for other people such as skilled craftsmen or even merchants. I’m not familiar enough with Chinese feudal society to say exactly where the overlaps end, or even how these Chinese permits would work in practice. 
 
