@@ -9,17 +9,11 @@ hideComments: false
 Where should they cross over to? This was very important for establishing their base of operations on the other side. The three all loved to play strategy games, and they all knew that choosing a good base location to start was very important. For them, the base must meet the following criteria:
 
 1. It must have a good agricultural foundation to ensure a steady supply of food  
-
 2. There must be a substantial pre-existing population base that can meet the labour needed for industrialisation  
-
 3. Abundant and easily accessible natural resources  
-
 4. Located close to the coast with accessible and safe harbours  
-
 5. Could not be close to the core area of Ming rule  
-
 6. Could not be close to where any major wars broke out.[^96]  
-
 7. Have defensible geography such as mountains and rivers.
 
 Obviously, for the time period they were going into, there were not many locations that could satisfy these requirements. This question was posted to the bulletin board. The options that everyone proposed online were three: Taiwan, Hainan, and Australia. 
@@ -124,7 +118,7 @@ Later, within the history textbooks of the New World, the conference was called 
 
 [^107]:  [Anthracite](https://en.wikipedia.org/wiki/Anthracite%20%20) is the highest grade of coal. Also, a hundred footnotes in 8 chapters? I’m yapping way too much.
 
-[^108]:  The Hlai are one of the 56 minority groups recognised by the PRC. In modern Chinese Pinyin they are called the Li people. The English name used here is closer to the Middle Chinese pronunciation. See [wiki for more details](%20https://en.wikipedia.org/wiki/Hlai_people).
+[^108]:  The Hlai are one of the 56 minority groups recognised by the PRC. In modern Chinese Pinyin they are called the Li people. The English name used here is closer to the Middle Chinese pronunciation. See [wiki for more details](https://en.wikipedia.org/wiki/Hlai_people).
 
 [^109]:  In the same wiki article on the [Hlai people](https://en.wikipedia.org/wiki/Hlai_people#History), there is some mention of Hlai revolts (though not the particular one the author described).
 
@@ -140,7 +134,7 @@ Later, within the history textbooks of the New World, the conference was called 
 
 [^115]:  Leizhou Peninsula is in the southernmost part of Guangdong province. Closest part of the mainland to Hainan, separated by the Qiongzhou Strait.
 
-[^116]:  *Baochuan*, A type of large Chinese junk. They are most famously known as the ships used by Zheng He; [see wiki](https://en.wikipedia.org/wiki/Chinese_treasure_ship).
+[^116]:  _Baochuan_, A type of large Chinese junk. They are most famously known as the ships used by Zheng He; [see wiki](https://en.wikipedia.org/wiki/Chinese_treasure_ship).
 
 [^117]:  About 623 CE
 
