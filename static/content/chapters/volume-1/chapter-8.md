@@ -130,7 +130,7 @@ Later, within the history textbooks of the New World, the conference was called 
 
 [^113]:  Baijiu is a type of Chinese distilled alcohol.
 
-[^114]:  Was [a Ming Dynasty general](%20https://en.wikipedia.org/wiki/Koxinga%20). 
+[^114]:  Was [a Ming Dynasty general](https://en.wikipedia.org/wiki/Koxinga%20). 
 
 [^115]:  Leizhou Peninsula is in the southernmost part of Guangdong province. Closest part of the mainland to Hainan, separated by the Qiongzhou Strait.
 
