@@ -94,7 +94,7 @@ They had thought it was difficult to recruit a follower,[^216] but it turned out
 
 Wei Zhongxian is sometimes referred to in the text as Nine Thousand Years, a title meant to highlight his position and power, as the Emperor himself was only called Ten Thousand Years. This is terrible to read in translation, so I haven’t done this.
 
-[^208]:  A type of [Ancient Chinese warship](%20https://en.wikipedia.org/wiki/Louchuan%20%20https://en.wikipedia.org/wiki/Louchuan%20)
+[^208]:  A type of [Ancient Chinese warship](https://en.wikipedia.org/wiki/Louchuan%20%20https://en.wikipedia.org/wiki/Louchuan)
 
 [^209]:  https://en.wikipedia.org/wiki/Stage\_station
 
@@ -104,9 +104,9 @@ Wei Zhongxian is sometimes referred to in the text as Nine Thousand Years, a tit
 
 [^212]:  Literally, the Jingchang (经厂). A part of the Imperial household in the Ming Dynasty that handled printing stuff as ordered by the emperor, particular ancient classics and historical documents. 
 
-[^213]:  A type of special shrine known as *sheng*, dedicated to living people. See [wiki](https://en.wikipedia.org/wiki/Worship_of_the_living). Ever since Wei Zhongxian this practice had been seen as a sign of corruption and gradually fell out of favour. Reminder that Wei Zhongxian was a court Eunuch in the Ming, widely known as the most notorious eunuch in Chinese history. 
+[^213]:  A type of special shrine known as _sheng_, dedicated to living people. See [wiki](https://en.wikipedia.org/wiki/Worship_of_the_living). Ever since Wei Zhongxian this practice had been seen as a sign of corruption and gradually fell out of favour. Reminder that Wei Zhongxian was a court Eunuch in the Ming, widely known as the most notorious eunuch in Chinese history. 
 
-[^214]:  Zaohua (造化), referring to Nature. From *Zhuangzi*. In this context meaning good fortune/luck.
+[^214]:  Zaohua (造化), referring to Nature. From _Zhuangzi_. In this context meaning good fortune/luck.
 
 [^215]:  Actors for xiqu (戏曲), Chinese opera.
 
