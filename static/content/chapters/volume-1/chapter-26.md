@@ -52,7 +52,7 @@ Xiao Zishan inwardly approved of this boy, he was truly a smart one.
 
 “I understand.”
 
-“Every month I will give you an extra two *liangs* of silver as activity expenses. I will leave choosing helpers up to you, but you should pick wisely. Those who aren’t reliable, or who are loose-lipped, should all be avoided. Apart from this, you must keep a constant ear out for any news about the Gao family.” Xiao Zishan strictly stared into his eyes, “if there is anything about them, don’t write it down. Tell us when we come.”
+“Every month I will give you an extra two _liangs_ of silver as activity expenses. I will leave choosing helpers up to you, but you should pick wisely. Those who aren’t reliable, or who are loose-lipped, should all be avoided. Apart from this, you must keep a constant ear out for any news about the Gao family.” Xiao Zishan strictly stared into his eyes, “if there is anything about them, don’t write it down. Tell us when we come.”
 
 Every sentence that Xiao Zishan said Gao Di would grunt in assent. Although the boy’s face was tinged with some trepidation, it was overflowing with excitement. 
 
@@ -134,7 +134,7 @@ If Gao Qing stubbornly continued to be an informant for Master Gao, then they wo
 
 “What about Gao Chang…”
 
-“Someone’s here\!” Bei Wei suddenly shouted, and flashed to the window.[^208] Along the way he picked up a rock from a bonsai pot and threw it out the window. A muffled knock came from outside, as if he’d hit something.
+“Someone’s here\!” Bei Wei suddenly shouted, and flashed to the window. Along the way he picked up a rock from a bonsai pot and threw it out the window. A muffled knock came from outside, as if he’d hit something.
 
 The three otakus had momentarily lost their spirits, and were paralysed to their chairs not daring to even breathe loudly.
 
@@ -158,11 +158,11 @@ Things kept getting more and more complicated. Thinking of the perturbed mood Ga
 
 \[TN\]  
 
-Title of chapter in Chinese is same as that of the film *Secret Post in Canton* (1958), but I elected to use a more informative name 
+Title of chapter in Chinese is same as that of the film _Secret Post in Canton_ (1958), but I elected to use a more informative name 
 
 [^199]:  Referring to the concept of City Gods. See [wiki](https://en.wikipedia.org/wiki/City_God_\(China\)). 
 
-[^200]:  The original, 不知者不罪, is a quotation from chapter 63 of *General Yue Fei*.
+[^200]:  The original, 不知者不罪, is a quotation from chapter 63 of _General Yue Fei_.
 
 [^201]:  Original does not specify what type of coins or their denomination
 
@@ -176,6 +176,4 @@ Title of chapter in Chinese is same as that of the film *Secret Post in Canton* 
 
 [^206]:  The ‘I’ used is the one used when talking to a superior.
 
-[^207]:  Set phrase in chinese ‘叫老爷们见笑了’, literally, ‘sorry for making masters laugh.”
-
-[^208]:  Literally, the ‘flash’ spell from League of Legends.
+[^207]:  Set phrase in Chinese ‘叫老爷们见笑了’, literally, ‘sorry for making masters laugh.”
