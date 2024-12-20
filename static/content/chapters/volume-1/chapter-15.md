@@ -6,7 +6,7 @@ chapter: 15
 date: 2024-12-20T14:50:00
 hideComments: false
 ---
-“Then let’s talk about energy first.” Xiao Zishan turned to the energy group. “Energy is of course the foundation to everything. As long as we have electricity, we can use everything from the modern world, from tools to computers. What does the energy group think about our energy generation problem?”
+“Then let’s talk about energy first.” Xiao Zishan turned to the Energy Group. “Energy is of course the foundation to everything. As long as we have electricity, we can use everything from the modern world, from tools to computers. What does the Energy Group think about our energy generation problem?”
 
 The one who responded was Chang Kaishen. He had been a migrant worker at a power plant for five years. He was the kind of person who worked the hardest, was paid the least, got no credit, and always got blamed.
 
@@ -100,7 +100,7 @@ The audience started whispering to each other again. Several people in the Sport
 
 “Let’s include this in our long-term plan, and make it contingent on what level our manufacturing base can reach.” Wen Desi said. “Now, let’s continue.”
 
-[^145]:  Unfortunately, I can’t find an accepted English name for the *you-nan* tree. The scientific name is [sindora glabra](https://en.wikipedia.org/wiki/Sindora_glabra)
+[^145]:  Unfortunately, I can’t find an accepted English name for the _you-nan_ tree. The scientific name is [sindora glabra](https://en.wikipedia.org/wiki/Sindora_glabra)
 
 [^146]:  [Here](https://www.fischer-tropsch.org/primary_documents/gvt_reports/USNAVY/USNTMJ%20Reports/USNTMJ-200L-0215-0436%20Report%20X-38%20N-4.pdf%20) is a 200 page document I found online fully detailing this pine root oil program, from the US Naval technical mission (i.e. US spies). Enjoy. I haven’t had the time yet to verify Boaster’s claim of Japanese production, but I’m sure it’s in this document somewhere. (unless of course Boaster is pulling from a different Chinese source).
 
