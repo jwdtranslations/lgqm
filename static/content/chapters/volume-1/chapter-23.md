@@ -6,7 +6,7 @@ chapter: 23
 date: 2024-12-20T16:51:00
 hideComments: false
 ---
-Spring in Wuyang city was drawing to a close, but the weather hadn’t warmed up at all. Gao Qing sat in the courtyard, blankly staring up at the sky. It had been almost two months since he came under the employ of his Australian masters.
+Spring in Wuyang city[^180] was drawing to a close, but the weather hadn’t warmed up at all. Gao Qing sat in the courtyard, blankly staring up at the sky. It had been almost two months since he came under the employ of his Australian masters.
 
 After transferring him over, Master Gao had instructed him to report back every move of the Australians. He also promised that if the Australians never returned or their relationship soured, Master Gao would still take him and his family back in.
 
@@ -28,7 +28,7 @@ However, Gao Di didn’t understand his father’s thinking. He trotted over and
 
 “It will be within these few days.” Gao Qin counted on his fingers for a while, “have you prepared all the accounting books?”
 
-“It’s all ready. At the end of last month the masters looked through them and praised me for remembering it all and being careful.” Gao Di raised his chin proudly. “Master Wang also helped me correct my spelling. Master Xiao said that he would teach me Arabic numerals in the future which would let me calculate faster than other accountants.”
+“It’s all ready. At the end of last month the masters looked through them and praised me for remembering it all and being careful.” Gao Di raised his chin proudly. “Master Wang also helped me correct my spelling.[^181] Master Xiao said that he would teach me Arabic numerals in the future which would let me calculate faster than other accountants.”
 
 “Good, good. As long as the masters like it.” Gao Qing said vaguely.  It was a good thing that the children were liked by the masters. If they were Chinese, it would be a good future for the children, but, alas… these masters were foreigners. He would be reluctant to take his children with him if they were to be moved to Australia. 
 
@@ -50,23 +50,23 @@ Just when he was starting to feel depressed, he heard the door open. It was Mana
 
 “Then I have to ask Manager Yan to please bear with me…” Gao Qing panicked. He fumbled in his waist and took out two qians of silver–the whole surplus from two months of saving. He had planned to use it to buy some clothes for his two children, but at this moment, he was thoroughly scared by Manager Yan’s words. Although he was technically no longer under the employ of the Gao family, he didn’t yet dare to entrust his fate entirely to the Australians.
 
-Manager Yan took the proffered coins and stuffed them into his sleeve. “I’ll help you deal with Master Gao. But this matter, although we can put it off for one day, we can’t delay it for fifteen! No matter what, we need to find out more about these people!”
+Manager Yan took the proffered coins and stuffed them into his sleeve. “I’ll help you deal with Master Gao. But this matter, although we can put it off for one day, we can’t delay it for fifteen\! No matter what, we need to find out more about these people\!”
 
 “Yes, yes, I understand.”
 
-“As soon as the merchants arrive, invite them over immediately. The moment they arrive! Do you understand?”
+“As soon as the merchants arrive, invite them over immediately. The moment they arrive\! Do you understand?”
 
 “Yes, I understand.”
 
 Manager Yan, after saying his piece, left the residence. Gao Qing wiped the sweat from his head and frowned even deeper. Helping Master Gao with his investigation would definitely draw the ire of these new masters. It would also be a very ungrateful action given the kindness that these Australian merchants had shown them so far. Even the fact that he was passing on the information of his masters to another amounted to a serious crime of betrayal. However, if he ignored Master Gao’s instructions, he would definitely have no chance of seeking refuge with him in the future, not to mention the countless ways a person like Master Gao had at their disposal to deal with a servant like him.
 
-Just as his thoughts were straying into wild territory, one of his sworn brothers in the Gao family, Gao Chang, came over. He was carrying a big box filled with smoked snacks that Master Gao was giving to the Australians. Gao Qing cheered up at the sight. He asked his wife and daughter to come out and collect the gift, before he himself went into the kitchen to clean up.
+Just as his thoughts were straying into wild territory, one of his sworn brothers in the Gao family, Gao Chang, came over. He was carrying a big box filled with smoked snacks that Master Gao Ju was giving to the Australians. Gao Qing cheered up at the sight. He asked his wife and daughter to come out and collect the gift, before he himself went into the kitchen to clean up.
 
 "Did Manager Yan come to blackmail you again, brother?" Gao Chang was a strong young man in his mid-twenties. He and Gao Qing came from the same hometown, and both ended up in the service of Master Gao. They even both ended up working in the outer courtyard, and so they took oaths of brotherhood in private.
 
 "Alas..." Gao Qing muttered.
 
-"Brother, you are too much of a coward," Gao Chang said angrily, "You belong to the Australian merchants now, why do you even bother with Master Gao? Your masters were kind enough to let you save some money, so why did you just go and shove it down a shithole!”
+"Brother, you are too much of a coward," Gao Chang said angrily, "You belong to the Australian merchants now, why do you even bother with Master Gao? Your masters were kind enough to let you save some money, so why did you just go and shove it down a shithole\!”
 
 "Brother, please don’t talk about it..” Gao Qing looked at the sky hanging just above the courtyard wall, "My family... I’m afraid that they’ll still have to take refuge under Master Gao in the future." After that, he refused to say more.
 
@@ -76,7 +76,7 @@ Just as his thoughts were straying into wild territory, one of his sworn brother
 
 “Then why would you ever want to return to the Gao family? You were just a lowly servant there, and now you’re pretty much half a manager. I envy your luck.”
 
-“But they are still foreign merchants!”
+“But they are still foreign merchants\!”
 
 “So what? They are not those red-haired, green-eyed Portuguese, with their weird smells.” Gao Chang disagreed, “Although it is sometimes hard to understand what the masters’ say, and they also dress strangely, they are after all Chinese people.”
 
@@ -91,3 +91,7 @@ Gao Chang suddenly realised what was troubling his sworn brother. Gao Chang neve
 Gao Chang saw his brother's sadness and hurriedly comforted him. But Gao Chang still didn't agree with his brother. After all, when the servants of the Gao household died, only those with a good reputation could rely on the grace of their masters and their savings to buy a place for burial in a temple. Ordinary servants were just sent off in a thin coffin and carried to the public grave outside the city to be interred in a random spot. Gao Qing i wanted to stay here in Guangzhou just to end up like that? Gao Chang couldn't help but feel a little sad for his sworn brother.
 
 For the first time in more than 20 years upon this mortal realm Gao Chang felt a ray of light flash across his heart. He, who had been so far living a muddled life as a slave, felt a new hope dawning: maybe, there was something better than this world he had known…
+
+[^180]:  An old name for Guangzhou (五羊城). Literally means ‘five goat city’. See [wiki](https://en.wikipedia.org/wiki/The_Legend_of_Five_Goats).
+
+[^181]:  Well, in Chinese words aren’t spelt as much as drawn.
