@@ -202,7 +202,7 @@ Gao Di hesitated. Xiao Zishan interjected, “Just tell us, we can deal with the
 
 [^189]:  A type of wine manufactured in Jinhua City (and surroundings), several famous wines came from this area throughout history. Sort of like how Bordeaux or Champagne are types of wines.
 
-[^190]:  Perilla is a type of mint. See [wiki](%20https://en.wikipedia.org/wiki/Perilla).
+[^190]:  Perilla is a type of mint. See [wiki](https://en.wikipedia.org/wiki/Perilla).
 
 [^191]:  Not a serf; tenant farmers rent land from a landowner. They are not bound to the land like serfs are.
 
@@ -212,7 +212,7 @@ Gao Di hesitated. Xiao Zishan interjected, “Just tell us, we can deal with the
 
 [^194]:  The most prestigious film and tv awards in the chinese language world. Sort of equivalent to the Oscars.
 
-[^195]:  恩威并重, a saying from the *Three Kingdoms*, same as the chapter title. Literally means ‘kindness and severity in equal parts’, usually rendered as ‘carrot and stick’.
+[^195]:  恩威并重, a saying from the _Three Kingdoms_, same as the chapter title. Literally means ‘kindness and severity in equal parts’, usually rendered as ‘carrot and stick’.
 
 [^196]:  ‘Protagonist aura’ (王八之气）in the original is one of those net-slang words that just don’t translate well. It’s a phrase that pops up all the time in Qidian novels. It developed from 王霸之气 (lit. the spirit of a domineering tyrant), used to refer to those MC heroes who easily beat any antagonists and conquer all the female romantic interests. The English conceptual equivalent is the Mary Sue archetype. This phrase eventually morphed into 王八之气 (homophones, it’s a play on words), which lit. means ‘spirit of a bastard’, which pokes fun at the above stereotypical overpowered MC type characters. I can’t come up with an easy way of translating this pun.
 
