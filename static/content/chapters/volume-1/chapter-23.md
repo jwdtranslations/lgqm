@@ -6,7 +6,7 @@ chapter: 23
 date: 2024-12-20T16:51:00
 hideComments: false
 ---
-Spring in Wuyang city[^180] was drawing to a close, but the weather hadn’t warmed up at all. Gao Qing sat in the courtyard, blankly staring up at the sky. It had been almost two months since he came under the employ of his Australian masters.
+Spring in Canton[^180] was drawing to a close, but the weather hadn’t warmed up at all. Gao Qing sat in the courtyard, blankly staring up at the sky. It had been almost two months since he came under the employ of his Australian masters.
 
 After transferring him over, Master Gao had instructed him to report back every move of the Australians. He also promised that if the Australians never returned or their relationship soured, Master Gao would still take him and his family back in.
 
