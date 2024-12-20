@@ -30,6 +30,13 @@
 		href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
 		rel="stylesheet"
 	/>
+	<script
+		defer
+		src="https://umami.thesqooid.com/script.js"
+		data-website-id="a7261222-932a-4365-a223-23fe8f1eabcb"
+		data-domains="jwdtranslations.github.io"
+		data-tag="lgqm"
+	></script>
 </svelte:head>
 
 <MetaTags {...metaTags} />
