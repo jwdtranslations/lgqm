@@ -92,6 +92,6 @@ Gao Chang saw his brother's sadness and hurriedly comforted him. But Gao Chang s
 
 For the first time in more than 20 years upon this mortal realm Gao Chang felt a ray of light flash across his heart. He, who had been so far living a muddled life as a slave, felt a new hope dawning: maybe, there was something better than this world he had known…
 
-[^180]:  An old name for Guangzhou (五羊城). Literally means ‘five goat city’. See [wiki](https://en.wikipedia.org/wiki/The_Legend_of_Five_Goats).
+[^180]:  An old name for Guangzhou (五羊城). Literally means ‘five goat city’. See [wiki](https://en.wikipedia.org/wiki/The_Legend_of_Five_Goats). To sort of match this I also use the older english name for Guangzhou.
 
 [^181]:  Well, in Chinese words aren’t spelt as much as drawn.
