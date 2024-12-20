@@ -33,7 +33,7 @@
 	<script
 		defer
 		src="https://umami.thesqooid.com/script.js"
-		data-website-id="a7261222-932a-4365-a223-23fe8f1eabcb"
+		data-website-id="7dc88e64-65a8-4b21-96b4-2aad50700ab5"
 		data-domains="jwdtranslations.github.io"
 		data-tag="lgqm"
 	></script>
