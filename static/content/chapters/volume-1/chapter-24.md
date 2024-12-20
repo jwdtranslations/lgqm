@@ -12,29 +12,29 @@ The reason for it was simple. A month ago he received a letter from Eunuch Yang,
 
 Splitting his income with this eunuch for nothing in return was a constant sore point for him, but he had relied on the protection of Eunuch Yang to get through all these years without any danger. Every year, he would send all the interest and dividends he earned to the capital, or deposit them in pawnshops in Guangzhou according to the eunuch’s instructions. He would also give lychees in summer and sweets in the winter. He never dared to neglect his patron for even a day. Why would he suddenly send someone to discuss important matters with him?
 
-Important matters? Gao Ju smiled bitterly. He was just a businessman. What important matters could he discuss with such a person in the imperial palace? It must be a request for a large sum of money for "temporary use" and "repayment for this eunuch’s services". And the amount would definitely be very huge, otherwise it would only be a matter of a letter and not a personal visit. Eunuch Yang even sent an "adopted son" here - it seemed he was very anxious to get this money! Gao Ju sighed. It seemed that the extra money that suddenly fell from the sky a few months ago had to be vomited out again.
+Important matters? Gao Ju smiled bitterly. He was just a businessman. What important matters could he discuss with such a person in the imperial palace? It must be a request for a large sum of money for "temporary use" and "repayment for this eunuch’s services". And the amount would definitely be very huge, otherwise it would only be a matter of a letter and not a personal visit. Eunuch Yang even sent an "adopted son" here \- it seemed he was very anxious to get this money\! Gao Ju sighed. It seemed that the extra money that suddenly fell from the sky a few months ago had to be vomited out again.
 
 Losing some money was not what Gao Ju feared most. Since the new emperor came to power at the start of Tianqi, things in the palace had become more and more unpredictable. His backer, Eunuch Yang, was a disciple of Gao Shiming, who had resigned voluntarily in the first year of the Tianqi Year to protect himself. Eunuch Yang had in turn become rather sidelined in the palace as a consequence.
 
-What if the Emperor disliked Eunuch Yang? Gao Ju couldn't help but tremble in fear. He didn't like Eunuch Yang personally either–but their relationship over the years had inextricably tied them together, like two grasshoppers strung on a rope. If Eunuch Yang was to fall out of favour today, then tomorrow men from the Eastern Depot would be knocking on his door, and soon even his family would disappear under mysterious circumstances.
+What if the Emperor disliked Eunuch Yang? Gao Ju couldn't help but tremble in fear. He didn't like Eunuch Yang personally either–but their relationship over the years had inextricably tied them together, like two grasshoppers strung on a rope. If Eunuch Yang was to fall out of favour today, then tomorrow men from the Eastern Depot would be knocking on his door, and soon even his family would disappear under mysterious circumstances.[^182]
 
-This visit surely wouldn’t be of this sort, right? Gao Ju began to sweat again, and could not help but yell:
+*This visit surely wouldn’t be of this sort, right?* Gao Ju began to sweat again, and could not help but yell:
 
-"Fan harder!"
+"Fan harder\!"
 
 The maidservant in the study hurriedly moved the silk fan beside her. The breeze was light, and carried the fragrance of a woman. If it were ordinary times, Gao Ju would be able to calm down, but not now. He suddenly felt hot all over, and suddenly stood up from the couch, and cursed:
 
-"All of you get out! Now!"
+"All of you get out\! Now\!"
 
 The maidservants in the room were all startled, and quickly retreated. After a moment of quiet, someone reported:
 
 "Manager Yan is here."
 
-“Let him in!"
+“Let him in\!"
 
 Manager Yan came to pass on a message from Gao Qing, who had reported that the Australian merchants had come.
 
-"They already arrived?" Gao Ju’s eyes brightened. This was good news for him. After all, if he had to gouge out a big chunk of money to Eunuch Yang it would be nice to have some fresh money to recoup his losses. Recently, the Australian merchants no longer wanted porcelain, but wanted various precious medicinal materials and spices instead. They even wanted to buy various hardwood and sandalwood materials. Gao Ju was very puzzled by this: although these things were not difficult to buy—there was plenty in Guangzhou city itself—the strange thing was that these goods were also produced in the West (the West in Zheng He's voyages to the West, not the later meaning), so why would they want to buy them here in Guangzhou, where they’re likely more expensive? This made him feel more and more suspicious about the origins of these sea merchants.
+"They already arrived?" Gao Ju’s eyes brightened. This was good news for him. After all, if he had to gouge out a big chunk of money to Eunuch Yang it would be nice to have some fresh money to recoup his losses. Recently, the Australian merchants no longer wanted porcelain, but wanted various precious medicinal materials and spices instead. They even wanted to buy various hardwood and sandalwood materials. Gao Ju was very puzzled by this: although these things were not difficult to buy—there was plenty in Guangzhou city itself—the strange thing was that these goods were also produced in the West (the West in Zheng He's voyages to the West, not the later meaning[^183]), so why would they want to buy them here in Guangzhou, where they’re likely more expensive? This made him feel more and more suspicious about the origins of these sea merchants.
 
 Speaking of this, that Gao Qing was also a waste. Gao Qing had served the Australians for more than two months and had not found anything of use. But Gao Ju didn't really expect that dullard to discover much either way.
 
@@ -68,11 +68,11 @@ He couldn't care less about all that at the moment, so he snorted and asked:
 
 "The writers of the letter didn't say so, so there shouldn't be any. There was only one urgent report in the fourth month. It's all about court appointments and such, so it wasn't passed up to you..."
 
-"Nonsense, send someone to retrieve that report!" That urgent report was different from a general court report. It was a list of officials transferred by the Ministry of Personnel. Although there were no big appointments, the shuffling of lesser official positions may also reveal the direction of the imperial court.
+"Nonsense, send someone to retrieve that report\!" That urgent report was different from a general court report. It was a list of officials transferred by the Ministry of Personnel. Although there were no big appointments, the shuffling of lesser official positions may also reveal the direction of the imperial court.
 
 After giving his instructions, Gao Ju drank a few more sips of tea and calmed down. Then he got up and went to the outer study room to meet the guests.
 
-
+---
 
 Bei Wei was on his first wormhole voyage. Stepping straight into a Ming Dynasty house from the modern world felt like a lucid dream.
 
@@ -98,12 +98,16 @@ The real threat was probably the guard standing behind Master Gao, controlling t
 
 Bei Wei was actually itching to fight with these Ming Dynasty martial artists. If an opportunity presented itself he would not miss it. He was very interested in traditional Chinese martial arts， but the fighting he learned in the army was mainly modern fighting techniques. He had watched many martial arts demonstrations, but he felt that they were not satisfying; there were too many fancy moves put on for show, and the skills you’d use in reality were never shown.
 
-Mr. Gao and Wen Desi continued their business discussion. Both of them were a little absent-minded. One was thinking about Eunuch Yang, and the other was considering the expansion of the Guangzhou branch.
+Master Gao and Wen Desi continued their business discussion. Both of them were a little absent-minded. One was thinking about Eunuch Yang, and the other was considering the expansion of the Guangzhou branch.
 
 The main purpose of Wen Desi’s visit this time was to expand their presence in Guangzhou.
 
-The current foundation was stable, but it was still far too limited. All their trades were conducted through Gao Ju, which was not conducive to their future commercial development as well as intelligence gathering work. One of the ideas of the Executive Committee was to venture out as much as possible and cultivate more agents - not only merchants like Mr. Gao, but also officials, scholars, and even ordinary people. 
+The current foundation was stable, but it was still far too limited. All their trades were conducted through Gao Ju, which was not conducive to their future commercial development as well as intelligence gathering work. One of the ideas of the Executive Committee was to venture out as much as possible and cultivate more agents–not only merchants like Master Gao, but also officials, scholars, and even ordinary people. 
 
 Of course, they couldn't do that directly. After all, they all looked strange and spoke peculiarly. They would definitely be closely watched if they went out themselves. However, the family of servants Gao Ju had given them were a good entry point. As long as they could win the hearts and loyalty of Gao Qing's family, the road ahead would only get wider and wider. 
 
 The meeting ended quickly, and the bills of lading were exchanged. The deal was complete. Naturally, someone would deliver the goods and silver, without their having to personally be concerned. Master Gao was eager to go to the study to read the materials compiled by his assistants, and wasn’t in the right mood to host his guests for dinner, so he just ordered some servants to set up a banquet on the table.
+
+[^182]:  Eastern depot Ming dynasty spy and secret police agency run by eunuchs. Like KGB but ancient china. See [wiki](https://en.wikipedia.org/wiki/Eastern_Depot).
+
+[^183]:  This is an author’s note. Boaster is clarifying that he means India/east coast of africa, not Europe.
