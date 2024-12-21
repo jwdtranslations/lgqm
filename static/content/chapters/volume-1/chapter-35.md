@@ -10,7 +10,7 @@ The rescue operation brought an endless amount of conversational material back t
 
 Wen Desi underwent a comprehensive check-up at the hospital. This person, who was carried into the hospital by a bunch of people, was actually determined by the doctor to be healthier than average. Just some rest would be enough for his full recovery. 
 
-Although they had lost some things, they were mostly insignificant items. The most valuable things lost were Chief Wen’s stab vest and taser. Some of the more romantic people were thinking that the stab-proof vest might become a ‘heavenly silkworm armour’ in the legends of *jianghu*.[^273] There were even some people that further suggested that the Executive Committee start wholesaling this ‘heavenly silkworm armour’–of course, at 10,000 taels a piece.
+Although they had lost some things, they were mostly insignificant items. The most valuable things lost were Chief Wen’s stab vest and taser. Some of the more romantic people were thinking that the stab-proof vest might become a ‘heavenly silkworm armour’ in the legends of _jianghu_.[^273] There were even some people that further suggested that the Executive Committee start wholesaling this ‘heavenly silkworm armour’–of course, at 10,000 taels a piece.
 
 The Executive committee wasn’t in the mood for such optimistic jokes. Of course, they were not worried about the vest or the stun gun in particular. Stab-proof vests would not stop bullets, and the stun gun would just be a plastic shell when its battery ran out. Rather, what was concerning was the behind-the-scenes information they’d uncovered through this event.
 
@@ -54,7 +54,7 @@ Xiao Zishan thought that such a powerful person would definitely be of use in th
 
 "Thank you, brother," Master Gao smiled bitterly, "Of course, new things are a must. That’s what they specifically asked for."
 
-*It's really fucking corrupt*. Xiao Zishan cursed in his heart. Not only did they accept bribes, but they even openly asked for bribes. And when asking you for bribes they just gave you list of what they wanted.
+_It's really fucking corrupt_. Xiao Zishan cursed in his heart. Not only did they accept bribes, but they even openly asked for bribes. And when asking you for bribes they just gave you list of what they wanted.
 
 "How could they ask for so much?" Xiao Zishan pretended to be surprised.
 
@@ -86,7 +86,7 @@ He then briefly described his relationship with Eunuch Yang, saying that Eunuch 
 
 "Recently there is one thing that is causing me great trouble, and I’m afraid that I won’t have enough cash to move around..."
 
-*Fuck, what I fear is really coming true*. Xiao Zishan was still nodding and smiling on the outside, but his smile was beginning to stiffen.
+_Fuck, what I fear is really coming true_. Xiao Zishan was still nodding and smiling on the outside, but his smile was beginning to stiffen.
 
 "...I would like to ask you to convince the other Australian merchants to change the settlement to once a month. If you can, I would be endlessly grateful and will reward you separately."
 
@@ -104,7 +104,7 @@ After hesitating for a while, Gao Ju told him about Yang Tianliang's visit to Gu
 
 "This shrine should have been easy, and would only cost at most five thousand taels of silver. But Yang Gonggong wants to build it at a "grand scale" and mobilise all the merchants and citizens of Guangzhou. I'm afraid the cost of such a shrine will be at least 70,000 or 80,000 taels." Gao Ju's face twitched slightly, and he was obviously very distressed at this sum.
 
-Xiao Zishan’s knowledge of the shrines of Wei Zhongxian came entirely from reading the "Five Tombstones Inscriptions" back in high school.[^277] He had no idea whether Guangzhou had built such a shrine for Wei Zhongxian, and he was not interested in old-world history. However, this matter would still need to be reported to the Executive Committee as soon as possible, so that Yu Eshui could make a judgement and see if there was any value in helping out.
+Xiao Zishan’s knowledge of the shrines of Wei Zhongxian came entirely from reading the "Five Tombstones Inscriptions" back in high school. He had no idea whether Guangzhou had built such a shrine for Wei Zhongxian, and he was not interested in old-world history. However, this matter would still need to be reported to the Executive Committee as soon as possible, so that Yu Eshui could make a judgement and see if there was any value in helping out.
 
 \[TN\]  
 
@@ -117,5 +117,3 @@ In this chapter Wei Zhongxian is referred to instead as ‘Nine Thousand Years O
 [^275]:  Super clunky translation, need improvement
 
 [^276]:  Imperial Chinese government office. See [wiki](https://en.wikipedia.org/wiki/Yamen%20).
-
-[^277]:  TODO: get reference for this.
