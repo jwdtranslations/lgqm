@@ -1,13 +1,11 @@
 ---
 slug: ""
-title: About this book
+title: Preface
 volume: 0
 chapter: -50
 date: 2024-11-05T00:30:00.000Z
 hideComments: true
 ---
-[TN: A foreword from Boaster]
-
 Put simply, this is a kingdom building novel written by a group of people. 
 
 Ever since I started working, most of what I have written have been reports of various kinds. It is with some trepidation that I start writing my first web novel. I do not know whether or not it will turn out well. Nonetheless, I will do my best to see it through.
@@ -34,4 +32,4 @@ For friends who have ideas and suggestions about the storyline, characters and t
 
 [TN]
 
-I've included this for completeness. In total, a few hundred fans have contributed to this novel: many of the later chapters are actually fan-written story lines that have been edited to fit the overarching story by Boaster.
+This is a preface from Boaster that I've included this for completeness. In total, a few hundred fans have contributed to this novel: many of the later chapters are actually fan-written story lines that have been edited to fit the overarching story by Boaster.
