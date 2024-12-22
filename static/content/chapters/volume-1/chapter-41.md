@@ -1,6 +1,6 @@
 ---
 slug: ""
-title: The Boat (1)
+title: The Boats (1)
 volume: 1
 chapter: 41
 date: 2024-12-22T16:40:00
@@ -39,8 +39,6 @@ After wandering around the hill for most of the day, Guo Yi finally returned to 
 That night, Guo Yi exited the hotel and roamed the streets for a while, before finally finding a small restaurant and drinking two bottles of beer. He was quite depressed. He had never thought that he was dumb. In his many years of work he had experienced quite a lot, and he usually figured out the general situation quite fast. But the puzzle that was taunting him now, he really couldn’t figure out.
 
 Let’s just go back first. Guo Yi thought. It wouldn’t be good to stay here for too long. He had already spent four days, and he couldn’t stay here forever. From everything he’d seen, this company was a bit suspicious, but it hadn’t done anything that would affect social stability and unity. After all, it was its right to purchase anything it saw as useful for business. As for money laundering and other financial problems, it was better to leave it to the relevant departments.
-
-
 
 Guo Yi’s investigation was more or less known to the Executive Committee, passed up the grapevine through the gathering of Zhong Lishi and several locals. Although the activities of the Crossing Company had been evidently exposed to the government, no one took it too seriously. Only Xiao Zishan was somewhat worried. Things had already reached this stage, and all that was left was a single, final step. No one wanted to end up the same as the Chinese men’s football team.
 
@@ -87,8 +85,6 @@ Meng De heard of the online chat group only after the second batch of key person
 Meng De was the only graduate of a maritime university among the time travellers, and even his job involved frequent contact with ships. Thus, his academic qualifications and work experience immediately attracted the attention of the Executive Committee. Although the Executive Committee suspected that his ship-handling skills were mediocre, no one else among the time travellers knew anything at all about large cargo ships.
 
 The two otherwise unconnected factors of his being a maritime university graduate and the limited wormhole energy combined, and he was thus destined to be one of the few people who would write down their own chapter in the history of the new world.
-
-
 
 A few weeks ago
 
